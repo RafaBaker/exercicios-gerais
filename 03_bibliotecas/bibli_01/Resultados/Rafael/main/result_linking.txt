@@ -1,5 +1,0 @@
-/usr/bin/ld: Resultados/Rafael/main/esferas_utils.o: in function `calcula_volume':
-esferas_utils.c:(.text+0x0): multiple definition of `calcula_volume'; Resultados/Rafael/main/esfera_utils.o:esfera_utils.c:(.text+0x0): first defined here
-/usr/bin/ld: Resultados/Rafael/main/esferas_utils.o: in function `calcula_area':
-esferas_utils.c:(.text+0x4e): multiple definition of `calcula_area'; Resultados/Rafael/main/esfera_utils.o:esfera_utils.c:(.text+0x69): first defined here
-collect2: error: ld returned 1 exit status

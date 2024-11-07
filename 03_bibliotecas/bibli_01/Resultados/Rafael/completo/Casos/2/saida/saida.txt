@@ -1,1 +1,2 @@
-timeout: failed to run command ‘valgrind’: Permission denied
+Area: 352.81
+Volume: 623.30
