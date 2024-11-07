@@ -1,0 +1,17 @@
+Arquivos Esperados Corretos: 1 de 3
+Pastas Compiladas Corretamente: 3 de 3 
+Pastas Linkadas Corretamente: 2 de 3
+Teste main
+  - Resultados corretos: 0 de 4
+  - Valgrinds corretos: 0 de 4
+Nota de Rafael para o teste main: 
+Teste completo
+  - Resultados corretos: 0 de 4
+  - Valgrinds corretos: 0 de 4
+Nota de Rafael para o teste completo: 
+Teste esfera_utils
+  - Resultados corretos: 0 de 4
+  - Valgrinds corretos: 0 de 4
+Nota de Rafael para o teste esfera_utils: 
+Nota de Rafael: 0+()+()+()
+Nota de Rafael: 
