@@ -1,0 +1,7 @@
+matrix_utils.c: In function ‘matrix_multiply’:
+matrix_utils.c:78:24: warning: unused variable ‘soma’ [-Wunused-variable]
+   78 |     int i, j, k, mult, soma;
+      |                        ^~~~
+matrix_utils.c:78:18: warning: unused variable ‘mult’ [-Wunused-variable]
+   78 |     int i, j, k, mult, soma;
+      |                  ^~~~
