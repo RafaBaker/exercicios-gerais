@@ -22,8 +22,11 @@ void matrix_print(int rows, int cols, int matrix[rows][cols])
     {
         for (; j < cols; j++)
         {
-            scanf("%d", &matrix[i][j]);
+            if (j == 0)
+                printf("|");
+            printf("%d ", matrix[i][j]);
         }
+        printf("|\n");
     }
 }
 
@@ -125,7 +128,7 @@ void scalar_multiply(int rows, int cols, int matrix[rows][cols], int scalar)
     {
         for (j = 0; j < cols; j++)
         {
-            matrix[i][j] = matriz[i][j]*scalar;
+            matrix[i][j] = matrix[i][j]*scalar;
         }
     }
 }
