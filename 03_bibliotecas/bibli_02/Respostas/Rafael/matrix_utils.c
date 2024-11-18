@@ -47,65 +47,41 @@ int possible_matrix_multiply(int cols1, int rows2)
 
 void matrix_add(int rows1, int cols1, int matrix1[rows1][cols1], int rows2, int cols2, int matrix2[rows2][cols2], int result[rows1][cols1])
 {
-    if (possible_matrix_sum(rows1, cols1, rows2, cols2))
+    int i, j;
+    for (i = 0; i < rows1; i++)
     {
-        int i, j;
-        for (i = 0; i < rows1; i++)
+        for (j = 0; j < cols1; j++)
         {
-            for (j = 0; j < cols1; j++)
-            {
-                result[i][j] = matrix1[i][j] + matrix2[i][j];
-            }
+            result[i][j] = matrix1[i][j] + matrix2[i][j];
         }
     }
-    else 
-    {
-        printf("Erro! Não é possível somar as matrizes");
-    }
-    
 }
 
 void matrix_sub(int rows1, int cols1, int matrix1[rows1][cols1], int rows2, int cols2, int matrix2[rows2][cols2], int result[rows1][cols1])
 {
-    if (possible_matrix_sub(rows1, cols1, rows2, cols2))
+    int i, j;
+    for (i = 0; i < rows1; i++)
     {
-        int i, j;
-        for (i = 0; i < rows1; i++)
+        for (j = 0; j < cols1; j++)
         {
-            for (j = 0; j < cols1; j++)
-            {
-                result[i][j] = matrix1[i][j] - matrix2[i][j];
-            }
+            result[i][j] = matrix1[i][j] - matrix2[i][j];
         }
     }
-    else 
-    {
-        printf("Erro! Não é possível subtrair");
-    }
-
 }
 
 void matrix_multiply(int rows1, int cols1, int matrix1[rows1][cols1], int rows2, int cols2, int matrix2[rows2][cols2], int result[rows1][cols2])
 {
-    if (possible_matrix_multiply(cols1, rows2))
+    int i, j, k, mult, soma;
+    for (i = 0; i < rows1; i++)
     {
-        int i, j, k, mult, soma;
-        for (i = 0; i < rows1; i++)
+        for (j = 0; cols2; j++)
         {
-            for (j = 0; cols2; j++)
+            result[i][j] = 0;
+            for (k = 0; k < rows1; k++)
             {
-                result[i][j] = 0;
-                for (k = 0; k < rows1; k++)
-                {
-                    result[i][j] = result[i][j] + (matrix1[i][k]*matrix2[k][j]);
-                }
+                result[i][j] = result[i][j] + (matrix1[i][k] * matrix2[k][j]);
             }
         }
-
-    }
-    else 
-    {
-        printf("Erro! o numero de colunas da primeira matriz eh diferente do numero de linhas da segunda matriz");
     }
 }
 
@@ -128,7 +104,7 @@ void scalar_multiply(int rows, int cols, int matrix[rows][cols], int scalar)
     {
         for (j = 0; j < cols; j++)
         {
-            matrix[i][j] = matrix[i][j]*scalar;
+            matrix[i][j] = matrix[i][j] * scalar;
         }
     }
 }
