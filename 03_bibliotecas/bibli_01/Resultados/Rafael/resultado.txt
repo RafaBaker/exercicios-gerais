@@ -13,5 +13,5 @@ Teste esfera_utils
   - Resultados corretos: 4 de 4
   - Valgrinds corretos: 4 de 4
 Nota de Rafael para o teste esfera_utils: 3.33
-Nota de Rafael: 0+(3.33)+(3.33)+(3.34)
+Nota de Rafael: 0+(3.34)+(3.33)+(3.33)
 Nota de Rafael: 10.00

@@ -1,13 +1,14 @@
 #include "matrix_utils.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 void matrix_read(int rows, int cols, int matrix[rows][cols])
 {
-    int i = 0, j = 0;
+    int i, j;
 
-    for (; i < rows; i++)
+    for (i = 0; i < rows; i++)
     {
-        for (; j < cols; j++)
+        for (j = 0; j < cols; j++)
         {
             scanf("%d", &matrix[i][j]);
         }
@@ -16,18 +17,21 @@ void matrix_read(int rows, int cols, int matrix[rows][cols])
 
 void matrix_print(int rows, int cols, int matrix[rows][cols])
 {
-    int i = 0, j = 0;
+    int i,j;
 
-    for (; i < rows; i++)
+    for (i = 0; i < rows; i++)
     {
-        for (; j < cols; j++)
+        for (j = 0; j < cols; j++)
         {
             if (j == 0)
                 printf("|");
-            printf("%d ", matrix[i][j]);
+            else
+                printf(" ");
+            printf("%d", matrix[i][j]);
         }
         printf("|\n");
     }
+    printf("\n");
 }
 
 int possible_matrix_sum(int rows1, int cols1, int rows2, int cols2)
@@ -74,10 +78,10 @@ void matrix_multiply(int rows1, int cols1, int matrix1[rows1][cols1], int rows2,
     int i, j, k, mult, soma;
     for (i = 0; i < rows1; i++)
     {
-        for (j = 0; cols2; j++)
+        for (j = 0; j < cols2; j++)
         {
             result[i][j] = 0;
-            for (k = 0; k < rows1; k++)
+            for (k = 0; k < cols1; k++)
             {
                 result[i][j] = result[i][j] + (matrix1[i][k] * matrix2[k][j]);
             }
