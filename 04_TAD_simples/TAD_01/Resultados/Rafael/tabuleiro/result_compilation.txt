@@ -1,0 +1,5 @@
+tabuleiro.c: In function ‘TemPosicaoLivreTabuleiro’:
+tabuleiro.c:59:17: warning: implicit declaration of function ‘EstaLivrePosicaoTabuleiro’; did you mean ‘MarcaPosicaoTabuleiro’? [-Wimplicit-function-declaration]
+   59 |             if (EstaLivrePosicaoTabuleiro(tabuleiro, i, j))
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |                 MarcaPosicaoTabuleiro

@@ -1,0 +1,17 @@
+jogada.c: In function ‘LeJogada’:
+jogada.c:10:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   10 |     printf("Digite uma posicao (x e y):\n");
+      |     ^~~~~~
+jogada.c:1:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+  +++ |+#include <stdio.h>
+    1 | typedef struct{
+jogada.c:10:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   10 |     printf("Digite uma posicao (x e y):\n");
+      |     ^~~~~~
+jogada.c:10:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+jogada.c:11:9: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+   11 |     if (scanf("%d %d", &jogada.x, &jogada.y) == 2)
+      |         ^~~~~
+jogada.c:11:9: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+jogada.c:11:9: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
+jogada.c:11:9: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
