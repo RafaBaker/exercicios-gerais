@@ -29,7 +29,7 @@ int main ()
                 printf("Erro: as dimensoes da matriz nao correspondem\n\n");
             }
         }
-        if (op == 2)
+        else if (op == 2)
         {
             if (possible_matrix_sub(rows1, cols1, rows2, cols2))
             {
@@ -42,7 +42,7 @@ int main ()
                 printf("Erro: as dimensoes da matriz nao correspondem\n\n");
             }
         }
-        if (op == 3)
+        else if (op == 3)
         {
             if(possible_matrix_multiply(cols1, rows2))
             {
@@ -55,7 +55,7 @@ int main ()
                 printf("Erro: o numero de colunas da primeira matriz eh diferente do numero de linhas da segunda matriz\n\n");
             }
         }
-        if (op == 4)
+        else if (op == 4)
         {
             int scalar = 0, flag = -1;
             scanf("%d %d", &scalar, &flag);
@@ -70,7 +70,7 @@ int main ()
                 matrix_print(rows2, cols2, matrix2);
             }
         }
-        if (op == 5)
+        else if (op == 5)
         {
             int result1[cols1][rows1];
             transpose_matrix(rows1, cols1, matrix1, result1);
