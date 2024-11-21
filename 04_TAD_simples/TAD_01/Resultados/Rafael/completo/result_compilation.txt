@@ -15,14 +15,50 @@ jogada.c:11:9: warning: implicit declaration of function ‘scanf’ [-Wimplicit
 jogada.c:11:9: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
 jogada.c:11:9: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
 jogada.c:11:9: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
-jogador.c: In function ‘JogaJogador’:
-jogador.c:38:1: warning: control reaches end of non-void function [-Wreturn-type]
-   38 | }
-      | ^
 jogador.c: In function ‘VenceuJogador’:
-jogador.c:52:1: warning: control reaches end of non-void function [-Wreturn-type]
-   52 | }
-      | ^
+jogador.c:110:41: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  110 |     for (i = 0, j = 0; i < TAM_TABULEIRO, j < TAM_TABULEIRO; i++, j++)
+      |                                         ^
+jogador.c:119:30: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  119 |     for (i = 2, j = 0; i >= 0, j < TAM_TABULEIRO; i--, j++)
+      |                              ^
+jogo.c: In function ‘ComecaJogo’:
+jogo.c:28:12: warning: implicit declaration of function ‘AcabouJogo’ [-Wimplicit-function-declaration]
+   28 |     while(!AcabouJogo(jogo))
+      |            ^~~~~~~~~~
+jogo.c:56:9: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   56 |         printf("JOGADOR %d Venceu!\n", vencedor);
+      |         ^~~~~~
+jogo.c:2:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+    1 | #include "jogador.h"
+  +++ |+#include <stdio.h>
+    2 | #include "tabuleiro.h"
+jogo.c:56:9: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   56 |         printf("JOGADOR %d Venceu!\n", vencedor);
+      |         ^~~~~~
+jogo.c:56:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+jogo.c:60:9: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   60 |         printf("Sem vencedor!\n");
+      |         ^~~~~~
+jogo.c:60:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+jogo.c: In function ‘ContinuaJogo’:
+jogo.c:73:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   73 |     printf("Jogar novamente? (s,n)\n");
+      |     ^~~~~~
+jogo.c:73:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+jogo.c:76:9: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+   76 |         scanf("[^\n]");
+      |         ^~~~~
+jogo.c:76:9: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+jogo.c:76:9: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
+jogo.c:76:9: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+jogo.c: In function ‘CriaJogo’:
+jogo.c:14:12: warning: ‘jogo’ is used uninitialized [-Wuninitialized]
+   14 |     return jogo;
+      |            ^~~~
+jogo.c:13:11: note: ‘jogo’ declared here
+   13 |     tJogo jogo;
+      |           ^~~~
 tabuleiro.c: In function ‘TemPosicaoLivreTabuleiro’:
 tabuleiro.c:59:17: warning: implicit declaration of function ‘EstaLivrePosicaoTabuleiro’; did you mean ‘MarcaPosicaoTabuleiro’? [-Wimplicit-function-declaration]
    59 |             if (EstaLivrePosicaoTabuleiro(tabuleiro, i, j))

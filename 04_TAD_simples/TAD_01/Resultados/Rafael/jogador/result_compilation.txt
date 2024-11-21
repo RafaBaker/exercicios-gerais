@@ -1,8 +1,19 @@
 jogador.c: In function ‘JogaJogador’:
-jogador.c:38:1: warning: control reaches end of non-void function [-Wreturn-type]
-   38 | }
-      | ^
+jogador.c:41:9: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   41 |         printf("Jogador %d\n", jogador.id);
+      |         ^~~~~~
+jogador.c:3:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+    2 | #include "jogada.h"
+  +++ |+#include <stdio.h>
+    3 | 
+jogador.c:41:9: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   41 |         printf("Jogador %d\n", jogador.id);
+      |         ^~~~~~
+jogador.c:41:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
 jogador.c: In function ‘VenceuJogador’:
-jogador.c:52:1: warning: control reaches end of non-void function [-Wreturn-type]
-   52 | }
-      | ^
+jogador.c:110:41: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  110 |     for (i = 0, j = 0; i < TAM_TABULEIRO, j < TAM_TABULEIRO; i++, j++)
+      |                                         ^
+jogador.c:119:30: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  119 |     for (i = 2, j = 0; i >= 0, j < TAM_TABULEIRO; i--, j++)
+      |                              ^
