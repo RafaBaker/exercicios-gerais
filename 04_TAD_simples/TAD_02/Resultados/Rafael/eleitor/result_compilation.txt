@@ -1,0 +1,11 @@
+eleitor.c: In function ‘LeEleitor’:
+eleitor.c:20:5: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+   20 |     scanf("%d %d %d", &id, &votoP, &votoG);
+      |     ^~~~~
+eleitor.c:1:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+  +++ |+#include <stdio.h>
+    1 | typedef struct{
+eleitor.c:20:5: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
+   20 |     scanf("%d %d %d", &id, &votoP, &votoG);
+      |     ^~~~~
+eleitor.c:20:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’

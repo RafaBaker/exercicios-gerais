@@ -1,16 +1,15 @@
-==6305== Memcheck, a memory error detector
-==6305== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==6305== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==6305== Command: Resultados/Rafael/jogador/prog Resultados/Rafael/jogador/Casos/2
-==6305== Parent PID: 6304
-==6305== 
-==6305== error calling PR_SET_PTRACER, vgdb might block
-==6305== 
-==6305== HEAP SUMMARY:
-==6305==     in use at exit: 0 bytes in 0 blocks
-==6305==   total heap usage: 2 allocs, 2 frees, 1,024 bytes allocated
-==6305== 
-==6305== All heap blocks were freed -- no leaks are possible
-==6305== 
-==6305== For lists of detected and suppressed errors, rerun with: -s
-==6305== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==74439== Memcheck, a memory error detector
+==74439== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==74439== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==74439== Command: Resultados/Rafael/jogador/prog Resultados/Rafael/jogador/Casos/2
+==74439== Parent PID: 74438
+==74439== 
+==74439== 
+==74439== HEAP SUMMARY:
+==74439==     in use at exit: 0 bytes in 0 blocks
+==74439==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==74439== 
+==74439== All heap blocks were freed -- no leaks are possible
+==74439== 
+==74439== For lists of detected and suppressed errors, rerun with: -s
+==74439== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
