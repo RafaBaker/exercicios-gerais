@@ -1,32 +1,35 @@
-candidato.c: In function ‘LeCandidato’:
-candidato.c:28:5: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-   28 |     scanf("%[^,]s, ", nome);
-      |     ^~~~~
-candidato.c:2:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
-    1 | #include <string.h>
-  +++ |+#include <stdio.h>
-    2 | 
-candidato.c:28:5: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
-   28 |     scanf("%[^,]s, ", nome);
-      |     ^~~~~
-candidato.c:28:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
-candidato.c:32:16: warning: unused variable ‘candidato’ [-Wunused-variable]
-   32 |     tCandidato candidato = CriaCandidato(nome, partido, cargo, id);
+eleicao.c: In function ‘InicializaEleicao’:
+eleicao.c:46:32: warning: unused variable ‘qtdPre’ [-Wunused-variable]
+   46 |     int qtdCandidatos, qtdGov, qtdPre, i;
+      |                                ^~~~~~
+eleicao.c:46:24: warning: unused variable ‘qtdGov’ [-Wunused-variable]
+   46 |     int qtdCandidatos, qtdGov, qtdPre, i;
+      |                        ^~~~~~
+eleicao.c: In function ‘RealizaEleicao’:
+eleicao.c:79:16: warning: unused variable ‘candidato’ [-Wunused-variable]
+   79 |     tCandidato candidato;
       |                ^~~~~~~~~
-candidato.c: In function ‘ImprimeCandidato’:
-candidato.c:108:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
-  108 |     printf("%s (%s), %d voto(s), %.2f%", candidato.nome, candidato.partido, candidato.votos, percentualVotos);
-      |     ^~~~~~
-candidato.c:108:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
-candidato.c:108:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
-candidato.c:108:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
-candidato.c:108:38: warning: spurious trailing ‘%’ in format [-Wformat=]
-  108 |     printf("%s (%s), %d voto(s), %.2f%", candidato.nome, candidato.partido, candidato.votos, percentualVotos);
-      |                                      ^
-candidato.c: In function ‘LeCandidato’:
-candidato.c:33:1: warning: control reaches end of non-void function [-Wreturn-type]
-   33 | }
-      | ^
+eleicao.c:77:10: warning: unused variable ‘cargo’ [-Wunused-variable]
+   77 |     char cargo;
+      |          ^~~~~
+eleicao.c: In function ‘ImprimeResultadoEleicao’:
+eleicao.c:162:21: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+  162 |                     exit(0);
+      |                     ^~~~
+eleicao.c:4:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+    3 | #include <stdio.h>
+  +++ |+#include <stdlib.h>
+    4 | 
+eleicao.c:162:21: warning: incompatible implicit declaration of built-in function ‘exit’ [-Wbuiltin-declaration-mismatch]
+  162 |                     exit(0);
+      |                     ^~~~
+eleicao.c:162:21: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+eleicao.c:142:76: warning: unused variable ‘votosValidosG’ [-Wunused-variable]
+  142 |     int i, j, votosInvalidosG = 0, votosInvalidosP = 0, votosValidosP = 0, votosValidosG = 0;
+      |                                                                            ^~~~~~~~~~~~~
+eleicao.c:142:57: warning: unused variable ‘votosValidosP’ [-Wunused-variable]
+  142 |     int i, j, votosInvalidosG = 0, votosInvalidosP = 0, votosValidosP = 0, votosValidosG = 0;
+      |                                                         ^~~~~~~~~~~~~
 eleitor.c: In function ‘LeEleitor’:
 eleitor.c:20:5: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
    20 |     scanf("%d %d %d", &id, &votoP, &votoG);

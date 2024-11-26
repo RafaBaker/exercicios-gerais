@@ -1,59 +1,16 @@
-==82991== Memcheck, a memory error detector
-==82991== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==82991== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==82991== Command: Resultados/Rafael/candidato/prog Resultados/Rafael/candidato/Casos/8
-==82991== Parent PID: 82990
-==82991== 
-==82991== Conditional jump or move depends on uninitialised value(s)
-==82991==    at 0x484EE72: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==82991==    by 0x109281: CriaCandidato (in /home/rrmatos/Documents/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Rafael/candidato/prog)
-==82991==    by 0x1093F9: LeCandidato (in /home/rrmatos/Documents/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Rafael/candidato/prog)
-==82991==    by 0x10965B: InicializaEleicao (in /home/rrmatos/Documents/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Rafael/candidato/prog)
-==82991==    by 0x10AE11: main (in /home/rrmatos/Documents/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Rafael/candidato/prog)
-==82991== 
-==82991== Conditional jump or move depends on uninitialised value(s)
-==82991==    at 0x484EE87: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==82991==    by 0x109281: CriaCandidato (in /home/rrmatos/Documents/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Rafael/candidato/prog)
-==82991==    by 0x1093F9: LeCandidato (in /home/rrmatos/Documents/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Rafael/candidato/prog)
-==82991==    by 0x10965B: InicializaEleicao (in /home/rrmatos/Documents/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Rafael/candidato/prog)
-==82991==    by 0x10AE11: main (in /home/rrmatos/Documents/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Rafael/candidato/prog)
-==82991== 
-==82991== Conditional jump or move depends on uninitialised value(s)
-==82991==    at 0x1096BB: InicializaEleicao (in /home/rrmatos/Documents/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Rafael/candidato/prog)
-==82991==    by 0x10AE11: main (in /home/rrmatos/Documents/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Rafael/candidato/prog)
-==82991== 
-==82991== Conditional jump or move depends on uninitialised value(s)
-==82991==    at 0x1097F1: InicializaEleicao (in /home/rrmatos/Documents/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Rafael/candidato/prog)
-==82991==    by 0x10AE11: main (in /home/rrmatos/Documents/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Rafael/candidato/prog)
-==82991== 
-==82991== Conditional jump or move depends on uninitialised value(s)
-==82991==    at 0x10A6CE: ImprimeResultadoEleicao (in /home/rrmatos/Documents/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Rafael/candidato/prog)
-==82991==    by 0x10AEB2: main (in /home/rrmatos/Documents/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Rafael/candidato/prog)
-==82991== 
-==82991== Conditional jump or move depends on uninitialised value(s)
-==82991==    at 0x10AABB: ImprimeResultadoEleicao (in /home/rrmatos/Documents/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Rafael/candidato/prog)
-==82991==    by 0x10AEB2: main (in /home/rrmatos/Documents/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Rafael/candidato/prog)
-==82991== 
-==82991== 
-==82991== Process terminating with default action of signal 8 (SIGFPE)
-==82991==  Integer divide by zero at address 0x1002EB0968
-==82991==    at 0x109543: CalculaPercentualVotos (in /home/rrmatos/Documents/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Rafael/candidato/prog)
-==82991==    by 0x10ABF6: ImprimeResultadoEleicao (in /home/rrmatos/Documents/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Rafael/candidato/prog)
-==82991==    by 0x10AEB2: main (in /home/rrmatos/Documents/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Rafael/candidato/prog)
-==82991== 
-==82991== HEAP SUMMARY:
-==82991==     in use at exit: 8,192 bytes in 2 blocks
-==82991==   total heap usage: 2 allocs, 0 frees, 8,192 bytes allocated
-==82991== 
-==82991== LEAK SUMMARY:
-==82991==    definitely lost: 0 bytes in 0 blocks
-==82991==    indirectly lost: 0 bytes in 0 blocks
-==82991==      possibly lost: 0 bytes in 0 blocks
-==82991==    still reachable: 8,192 bytes in 2 blocks
-==82991==         suppressed: 0 bytes in 0 blocks
-==82991== Reachable blocks (those to which a pointer was found) are not shown.
-==82991== To see them, rerun with: --leak-check=full --show-leak-kinds=all
-==82991== 
-==82991== Use --track-origins=yes to see where uninitialised values come from
-==82991== For lists of detected and suppressed errors, rerun with: -s
-==82991== ERROR SUMMARY: 29 errors from 6 contexts (suppressed: 0 from 0)
+==14615== Memcheck, a memory error detector
+==14615== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==14615== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==14615== Command: Resultados/Rafael/candidato/prog Resultados/Rafael/candidato/Casos/8
+==14615== Parent PID: 14614
+==14615== 
+==14615== error calling PR_SET_PTRACER, vgdb might block
+==14615== 
+==14615== HEAP SUMMARY:
+==14615==     in use at exit: 0 bytes in 0 blocks
+==14615==   total heap usage: 2 allocs, 2 frees, 1,024 bytes allocated
+==14615== 
+==14615== All heap blocks were freed -- no leaks are possible
+==14615== 
+==14615== For lists of detected and suppressed errors, rerun with: -s
+==14615== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
