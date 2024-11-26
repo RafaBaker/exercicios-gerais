@@ -1,0 +1,11 @@
+filme.c: In function ‘compararNomesFilmes’:
+filme.c:100:1: warning: control reaches end of non-void function [-Wreturn-type]
+  100 | }
+      | ^
+filme.c: In function ‘leFilme’:
+filme.c:40:12: warning: ‘filme’ is used uninitialized [-Wuninitialized]
+   40 |     return filme;
+      |            ^~~~~
+filme.c:34:12: note: ‘filme’ declared here
+   34 |     tFilme filme;
+      |            ^~~~~
