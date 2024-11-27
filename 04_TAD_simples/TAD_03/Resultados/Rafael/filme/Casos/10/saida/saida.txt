@@ -1,22 +1,24 @@
-Filme cadastrado 0 - 
+Filme cadastrado 1 - A Sociedade Do Anel
 
-Filme 1 nao cadastrado.
-
-~ESTOQUE~
-0 -  Fitas em estoque: 0
-
-Filme cadastrado -16789280 - 
+Total de filmes alugados: 1 com custo de R$5
 
 ~ESTOQUE~
--16789280 -  Fitas em estoque: 0
-0 -  Fitas em estoque: 0
+1 - A Sociedade Do Anel Fitas em estoque: 0
 
-Filme 1 nao cadastrado.
-
-Filme 15 nao cadastrado.
-
-Filme 15 nao cadastrado.
+Filme cadastrado 15 - Shrek
 
 ~ESTOQUE~
-0 -  Fitas em estoque: 0
--16789280 -  Fitas em estoque: 0
+1 - A Sociedade Do Anel Fitas em estoque: 0
+15 - Shrek Fitas em estoque: 1
+
+Filme 1 - A Sociedade Do Anel Devolvido!
+
+Total de filmes alugados: 1 com custo de R$4
+
+Filme 15 - Shrek Devolvido!
+
+~ESTOQUE~
+1 - A Sociedade Do Anel Fitas em estoque: 1
+15 - Shrek Fitas em estoque: 1
+
+Lucro total R$9

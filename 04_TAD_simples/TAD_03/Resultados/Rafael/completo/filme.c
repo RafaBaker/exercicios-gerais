@@ -33,9 +33,15 @@ tFilme leFilme(int codigo)
 {
     tFilme filme;
     char nome[MAX_CARACTERES];
+    int valor = 0, quantidade = 0;
+
     scanf(",");
     scanf("%[^,]s", nome);
-    criarFilme(nome, codigo, 100, 100);
+    scanf("%*c");
+    scanf("%d", &valor);
+    scanf("%*c");
+    scanf("%d", &quantidade);
+    filme = criarFilme(nome, codigo, valor, quantidade);
 
     return filme;
 }
@@ -86,12 +92,12 @@ tFilme devolverFilme (tFilme filme)
 
 int compararNomesFilmes (tFilme filme1, tFilme filme2)
 {
-    int i;
-    while (filme1.nome[i] == filme2.nome[i])
+    int i = 0;
+    while (filme1.nome[i] != '\0' || filme2.nome[i] != '\0')
     {
-        if (filme1.nome[i] == '\0')
+        if (filme1.nome[i] > filme2.nome[i])
             return 1;
-        if (filme2.nome[i] == '\0')
+        else if (filme1.nome[i] < filme2.nome[i])
             return -1;
         i++;
     }

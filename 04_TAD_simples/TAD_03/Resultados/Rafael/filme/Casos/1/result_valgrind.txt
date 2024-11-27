@@ -1,127 +1,16 @@
-==16050== Memcheck, a memory error detector
-==16050== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==16050== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==16050== Command: Resultados/Rafael/filme/prog Resultados/Rafael/filme/Casos/1
-==16050== Parent PID: 16049
-==16050== 
-==16050== error calling PR_SET_PTRACER, vgdb might block
-==16050== Conditional jump or move depends on uninitialised value(s)
-==16050==    at 0x48D7AD6: __vfprintf_internal (vfprintf-internal.c:1516)
-==16050==    by 0x48C179E: printf (printf.c:33)
-==16050==    by 0x1097FC: cadastrarFilmeLocadora (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050==    by 0x109932: lerCadastroLocadora (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050==    by 0x10A95F: main (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050== 
-==16050== Use of uninitialised value of size 8
-==16050==    at 0x48BB2EB: _itoa_word (_itoa.c:177)
-==16050==    by 0x48D6ABD: __vfprintf_internal (vfprintf-internal.c:1516)
-==16050==    by 0x48C179E: printf (printf.c:33)
-==16050==    by 0x1097FC: cadastrarFilmeLocadora (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050==    by 0x109932: lerCadastroLocadora (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050==    by 0x10A95F: main (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050== 
-==16050== Conditional jump or move depends on uninitialised value(s)
-==16050==    at 0x48BB2FC: _itoa_word (_itoa.c:177)
-==16050==    by 0x48D6ABD: __vfprintf_internal (vfprintf-internal.c:1516)
-==16050==    by 0x48C179E: printf (printf.c:33)
-==16050==    by 0x1097FC: cadastrarFilmeLocadora (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050==    by 0x109932: lerCadastroLocadora (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050==    by 0x10A95F: main (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050== 
-==16050== Conditional jump or move depends on uninitialised value(s)
-==16050==    at 0x48D75C3: __vfprintf_internal (vfprintf-internal.c:1516)
-==16050==    by 0x48C179E: printf (printf.c:33)
-==16050==    by 0x1097FC: cadastrarFilmeLocadora (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050==    by 0x109932: lerCadastroLocadora (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050==    by 0x10A95F: main (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050== 
-==16050== Conditional jump or move depends on uninitialised value(s)
-==16050==    at 0x48D6C05: __vfprintf_internal (vfprintf-internal.c:1516)
-==16050==    by 0x48C179E: printf (printf.c:33)
-==16050==    by 0x1097FC: cadastrarFilmeLocadora (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050==    by 0x109932: lerCadastroLocadora (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050==    by 0x10A95F: main (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050== 
-==16050== Conditional jump or move depends on uninitialised value(s)
-==16050==    at 0x484ED19: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==16050==    by 0x48D7D30: __vfprintf_internal (vfprintf-internal.c:1517)
-==16050==    by 0x48C179E: printf (printf.c:33)
-==16050==    by 0x1093A9: imprimirNomeFilme (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050==    by 0x109840: cadastrarFilmeLocadora (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050==    by 0x109932: lerCadastroLocadora (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050==    by 0x10A95F: main (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050== 
-==16050== Conditional jump or move depends on uninitialised value(s)
-==16050==    at 0x48D7AD6: __vfprintf_internal (vfprintf-internal.c:1516)
-==16050==    by 0x48C179E: printf (printf.c:33)
-==16050==    by 0x10A7A8: consultarEstoqueLocadora (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050==    by 0x10AB3E: main (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050== 
-==16050== Use of uninitialised value of size 8
-==16050==    at 0x48BB2EB: _itoa_word (_itoa.c:177)
-==16050==    by 0x48D6ABD: __vfprintf_internal (vfprintf-internal.c:1516)
-==16050==    by 0x48C179E: printf (printf.c:33)
-==16050==    by 0x10A7A8: consultarEstoqueLocadora (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050==    by 0x10AB3E: main (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050== 
-==16050== Conditional jump or move depends on uninitialised value(s)
-==16050==    at 0x48BB2FC: _itoa_word (_itoa.c:177)
-==16050==    by 0x48D6ABD: __vfprintf_internal (vfprintf-internal.c:1516)
-==16050==    by 0x48C179E: printf (printf.c:33)
-==16050==    by 0x10A7A8: consultarEstoqueLocadora (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050==    by 0x10AB3E: main (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050== 
-==16050== Conditional jump or move depends on uninitialised value(s)
-==16050==    at 0x48D75C3: __vfprintf_internal (vfprintf-internal.c:1516)
-==16050==    by 0x48C179E: printf (printf.c:33)
-==16050==    by 0x10A7A8: consultarEstoqueLocadora (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050==    by 0x10AB3E: main (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050== 
-==16050== Conditional jump or move depends on uninitialised value(s)
-==16050==    at 0x48D6C05: __vfprintf_internal (vfprintf-internal.c:1516)
-==16050==    by 0x48C179E: printf (printf.c:33)
-==16050==    by 0x10A7A8: consultarEstoqueLocadora (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050==    by 0x10AB3E: main (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050== 
-==16050== Conditional jump or move depends on uninitialised value(s)
-==16050==    at 0x48D7AD6: __vfprintf_internal (vfprintf-internal.c:1516)
-==16050==    by 0x48C179E: printf (printf.c:33)
-==16050==    by 0x10A864: consultarEstoqueLocadora (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050==    by 0x10AB3E: main (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050== 
-==16050== Use of uninitialised value of size 8
-==16050==    at 0x48BB2EB: _itoa_word (_itoa.c:177)
-==16050==    by 0x48D6ABD: __vfprintf_internal (vfprintf-internal.c:1516)
-==16050==    by 0x48C179E: printf (printf.c:33)
-==16050==    by 0x10A864: consultarEstoqueLocadora (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050==    by 0x10AB3E: main (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050== 
-==16050== Conditional jump or move depends on uninitialised value(s)
-==16050==    at 0x48BB2FC: _itoa_word (_itoa.c:177)
-==16050==    by 0x48D6ABD: __vfprintf_internal (vfprintf-internal.c:1516)
-==16050==    by 0x48C179E: printf (printf.c:33)
-==16050==    by 0x10A864: consultarEstoqueLocadora (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050==    by 0x10AB3E: main (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050== 
-==16050== Conditional jump or move depends on uninitialised value(s)
-==16050==    at 0x48D75C3: __vfprintf_internal (vfprintf-internal.c:1516)
-==16050==    by 0x48C179E: printf (printf.c:33)
-==16050==    by 0x10A864: consultarEstoqueLocadora (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050==    by 0x10AB3E: main (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050== 
-==16050== Conditional jump or move depends on uninitialised value(s)
-==16050==    at 0x48D6C05: __vfprintf_internal (vfprintf-internal.c:1516)
-==16050==    by 0x48C179E: printf (printf.c:33)
-==16050==    by 0x10A864: consultarEstoqueLocadora (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050==    by 0x10AB3E: main (in /home/rafael/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Rafael/filme/prog)
-==16050== 
-==16050== 
-==16050== HEAP SUMMARY:
-==16050==     in use at exit: 0 bytes in 0 blocks
-==16050==   total heap usage: 2 allocs, 2 frees, 1,024 bytes allocated
-==16050== 
-==16050== All heap blocks were freed -- no leaks are possible
-==16050== 
-==16050== Use --track-origins=yes to see where uninitialised values come from
-==16050== For lists of detected and suppressed errors, rerun with: -s
-==16050== ERROR SUMMARY: 17 errors from 16 contexts (suppressed: 0 from 0)
+==691== Memcheck, a memory error detector
+==691== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==691== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==691== Command: Resultados/Rafael/filme/prog Resultados/Rafael/filme/Casos/1
+==691== Parent PID: 690
+==691== 
+==691== error calling PR_SET_PTRACER, vgdb might block
+==691== 
+==691== HEAP SUMMARY:
+==691==     in use at exit: 0 bytes in 0 blocks
+==691==   total heap usage: 2 allocs, 2 frees, 1,024 bytes allocated
+==691== 
+==691== All heap blocks were freed -- no leaks are possible
+==691== 
+==691== For lists of detected and suppressed errors, rerun with: -s
+==691== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

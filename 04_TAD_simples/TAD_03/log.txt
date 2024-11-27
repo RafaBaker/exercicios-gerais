@@ -318,100 +318,100 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  -----
  - Pasta filme / Caso 1:
  - Arquivo de output gerado: Resultados/Rafael/filme/Casos/1/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 7 | Desconto do valgrind 50.00%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta filme / Caso 10:
  - Arquivo de output gerado: Resultados/Rafael/filme/Casos/10/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 56 | Desconto do valgrind 50.00%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta filme / Caso 11:
  - Arquivo de output gerado: Resultados/Rafael/filme/Casos/11/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 11 | Desconto do valgrind 50.00%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta filme / Caso 12:
  - Arquivo de output gerado: Resultados/Rafael/filme/Casos/12/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 7 | Desconto do valgrind 50.00%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta filme / Caso 13:
  - Arquivo de output gerado: Resultados/Rafael/filme/Casos/13/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 17 | Desconto do valgrind 50.00%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta filme / Caso 14:
  - Arquivo de output gerado: Resultados/Rafael/filme/Casos/14/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 64 | Desconto do valgrind 50.00%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta filme / Caso 15:
  - Arquivo de output gerado: Resultados/Rafael/filme/Casos/15/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 13 | Desconto do valgrind 50.00%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta filme / Caso 16:
  - Arquivo de output gerado: Resultados/Rafael/filme/Casos/16/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 7 | Desconto do valgrind 50.00%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta filme / Caso 17:
  - Arquivo de output gerado: Resultados/Rafael/filme/Casos/17/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 9 | Desconto do valgrind 50.00%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta filme / Caso 18:
  - Arquivo de output gerado: Resultados/Rafael/filme/Casos/18/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 83 | Desconto do valgrind 50.00%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta filme / Caso 19:
  - Arquivo de output gerado: Resultados/Rafael/filme/Casos/19/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 54 | Desconto do valgrind 50.00%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta filme / Caso 2:
  - Arquivo de output gerado: Resultados/Rafael/filme/Casos/2/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 7 | Desconto do valgrind 50.00%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta filme / Caso 3:
  - Arquivo de output gerado: Resultados/Rafael/filme/Casos/3/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 7 | Desconto do valgrind 50.00%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta filme / Caso 4:
  - Arquivo de output gerado: Resultados/Rafael/filme/Casos/4/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 9 | Desconto do valgrind 50.00%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta filme / Caso 5:
  - Arquivo de output gerado: Resultados/Rafael/filme/Casos/5/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 9 | Desconto do valgrind 50.00%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta filme / Caso 6:
  - Arquivo de output gerado: Resultados/Rafael/filme/Casos/6/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 15 | Desconto do valgrind 50.00%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta filme / Caso 7:
  - Arquivo de output gerado: Resultados/Rafael/filme/Casos/7/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 17 | Desconto do valgrind 50.00%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta filme / Caso 8:
  - Arquivo de output gerado: Resultados/Rafael/filme/Casos/8/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 7 | Desconto do valgrind 50.00%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta filme / Caso 9:
  - Arquivo de output gerado: Resultados/Rafael/filme/Casos/9/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 11 | Desconto do valgrind 50.00%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
- - Nota para a pasta filme (máximo 2.50) - 0 de 190 - 0% de 2.50: 0.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta filme (máximo 2.50) - 190.00 de 190 - 100.00% de 2.50: 2.50.
  -----
 
 #######################################
@@ -436,11 +436,11 @@ Aluno: Rafael
  - Valgrinds corretos: 0 de 19
  - Nota de Rafael para o teste locadora: 0
  - Teste filme
- - Resultados corretos: 0 de 19
- - Valgrinds corretos: 0 de 19
- - Nota de Rafael para o teste filme: 0
- - Nota de Rafael: 0+(0)+(0)+(0)+(0)
- - Nota de Rafael: 0
+ - Resultados corretos: 19 de 19
+ - Valgrinds corretos: 19 de 19
+ - Nota de Rafael para o teste filme: 2.50
+ - Nota de Rafael: 0+(0)+(0)+(0)+(2.50)
+ - Nota de Rafael: 2.50
 
 ----------------------------------------------------------------------------
 
