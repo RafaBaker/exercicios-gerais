@@ -41,6 +41,7 @@ tFilme leFilme(int codigo)
     scanf("%d", &valor);
     scanf("%*c");
     scanf("%d", &quantidade);
+    scanf("%*c");
     filme = criarFilme(nome, codigo, valor, quantidade);
 
     return filme;

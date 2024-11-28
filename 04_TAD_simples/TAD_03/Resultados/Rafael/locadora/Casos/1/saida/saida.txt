@@ -1,4 +1,7 @@
+codigo: 2
+c2: ,
 Filme cadastrado 2 - Shrek
+codigo: #
 
 ~ESTOQUE~
 2 - Shrek Fitas em estoque: 1

@@ -1,5 +1,10 @@
+codigo: 2
+c2: ,
 Filme cadastrado 2 - Shrek
+codigo: 1
+c2: ,
 Filme cadastrado 1 - Donnie Darko
+codigo: #
 
 ~ESTOQUE~
 1 - Donnie Darko Fitas em estoque: 2

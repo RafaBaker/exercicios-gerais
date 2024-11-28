@@ -54,11 +54,11 @@ tLocadora lerCadastroLocadora (tLocadora locadora)
     char codigo, c2;
     int i = 0;
     scanf("%c", &codigo);
-    //printf("codigo: %c\n", codigo);
+    printf("codigo: %c\n", codigo);
     while (codigo != '#')
     {
         scanf("%c", &c2);
-        //printf("c2: %c\n", c2);
+        printf("c2: %c\n", c2);
         if (c2 != ',')
         {
             codigo = (codigo - '0')*10 + (c2 - '0');
@@ -68,7 +68,10 @@ tLocadora lerCadastroLocadora (tLocadora locadora)
         tFilme filme =  leFilme(codigo);
         locadora = cadastrarFilmeLocadora(locadora, filme);
         scanf("%c", &codigo);
-        //printf("codigo: %c\n", codigo);
+        i++;
+        if (i > 7)
+            break;
+        printf("codigo: %c\n", codigo);
     }
     return locadora;
 }

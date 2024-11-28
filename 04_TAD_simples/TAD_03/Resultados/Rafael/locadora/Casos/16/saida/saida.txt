@@ -1,5 +1,10 @@
+codigo: 1
+c2: ,
 Filme cadastrado 1 - Final Fantasy
+codigo: 1
+c2: ,
 Filme ja cadastrado no estoque
+codigo: #
 
 ~ESTOQUE~
 1 - Final Fantasy Fitas em estoque: 1
