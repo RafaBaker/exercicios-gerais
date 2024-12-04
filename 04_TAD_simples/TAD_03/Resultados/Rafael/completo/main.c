@@ -11,7 +11,8 @@ int main(int argc, char const *argv[])
 
     while (scanf("%s", op) == 1)
     {
-        printf("op: %s\n", op);
+        //printf("op: %s\n", op);
+        scanf("[^\n]");
         scanf("%*c");
         if (!strcmp(op, "Cadastrar"))
         {

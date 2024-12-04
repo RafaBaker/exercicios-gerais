@@ -1,13 +1,5 @@
 #include <stdio.h>
-#define MAX_CARACTERES 20 
-
-typedef struct Filme {
-    int codigo; 
-    char nome[MAX_CARACTERES]; 
-    int valor; 
-    int qtdEstoque; 
-    int qtdAlugada; 
-} tFilme;
+#include "filme.h"
 
 tFilme criarFilme (char* nome, int codigo, int valor, int quantidade)
 {

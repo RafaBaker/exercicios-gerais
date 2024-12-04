@@ -1,14 +1,6 @@
 #include "filme.h"
+#include "locadora.h"
 #include <stdio.h>
-
-#define MAX_FILMES 100
-
-
-typedef struct Locadora {
-    tFilme filme[MAX_FILMES]; 
-    int numFilmes; 
-    int lucro; 
-} tLocadora;
 
 tLocadora criarLocadora ()
 {
@@ -54,14 +46,15 @@ tLocadora lerCadastroLocadora (tLocadora locadora)
     char codigo, c2;
     int i = 0;
     scanf("%c", &codigo);
-    printf("codigo: %c\n", codigo);
+    //printf("codigo: %c\n", codigo);
     while (codigo != '#')
     {
         scanf("%c", &c2);
-        printf("c2: %c\n", c2);
+        //printf("c2: %c\n", c2);
         if (c2 != ',')
         {
             codigo = (codigo - '0')*10 + (c2 - '0');
+            scanf("[^\n]");
             scanf("%*c");
         }
         else codigo -= '0';
@@ -71,7 +64,7 @@ tLocadora lerCadastroLocadora (tLocadora locadora)
         i++;
         if (i > 7)
             break;
-        printf("codigo: %c\n", codigo);
+        //printf("codigo: %c\n", codigo);
     }
     return locadora;
 }
@@ -134,13 +127,22 @@ tLocadora lerAluguelLocadora (tLocadora locadora)
 
     while (1)
     {
+        c1 = '\0';
+        c2 = '\0';
         scanf("%c", &c1);
-        printf("c1: %c\n", c1);
+        //printf("c1: %c\n", c1);
         if (c1 == '#') break;
 
         scanf("%c", &c2);
-        printf("c2: %c\n", c2);
-        if (c2 == '\n')
+        //printf("c2: %c\n", c2);
+        if ((c1 == '\n') && (c2 == '#')) break;
+        if (!(c1 >= '0' && c1 <= '9'))
+        {
+            codigo = c2 - '0';
+            codigos[qtdCodigos] = codigo;
+            qtdCodigos++;
+        }
+        else if (c2 == '\n')
         {
             codigo = c1 - '0';
             codigos[qtdCodigos] = codigo;
@@ -218,11 +220,41 @@ tLocadora lerDevolucaoLocadora (tLocadora locadora)
 
     while (1)
     {
+        // scanf("%c", &c1);
+        // if (c1 == '#') break;
+
+        // scanf("%c", &c2);
+        // if (c2 == '\n')
+        // {
+        //     codigo = c1 - '0';
+        //     codigos[qtdCodigos] = codigo;
+        //     qtdCodigos++;
+        // }
+        // else
+        // {
+        //     scanf("[^\n]");
+        //     scanf("%*c");
+        //     codigo = (c1 - '0')*10 + (c2 - '0');
+        //     codigos[qtdCodigos] = codigo;
+        //     qtdCodigos++;
+        // }
+
+        c1 = '\0';
+        c2 = '\0';
         scanf("%c", &c1);
+        //printf("c1: %c\n", c1);
         if (c1 == '#') break;
 
         scanf("%c", &c2);
-        if (c2 == '\n')
+        //printf("c2: %c\n", c2);
+        if ((c1 == '\n') && (c2 == '#')) break;
+        if (!(c1 >= '0' && c1 <= '9'))
+        {
+            codigo = c2 - '0';
+            codigos[qtdCodigos] = codigo;
+            qtdCodigos++;
+        }
+        else if (c2 == '\n')
         {
             codigo = c1 - '0';
             codigos[qtdCodigos] = codigo;
