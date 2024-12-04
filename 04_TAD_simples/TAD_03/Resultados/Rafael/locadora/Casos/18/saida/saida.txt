@@ -1,16 +1,7 @@
-codigo: 1
-c2: ,
 Filme cadastrado 1 - Hannibal
-codigo: 2
-c2: ,
 Filme cadastrado 2 - Tomb Raider
-codigo: 3
-c2: ,
 Filme cadastrado 3 - Sword Fish
-codigo: 2
-c2: ,
 Filme ja cadastrado no estoque
-codigo: #
 
 ~ESTOQUE~
 1 - Hannibal Fitas em estoque: 1
@@ -36,10 +27,7 @@ Filme 2 - Tomb Raider Devolvido!
 
 Filme 15 nao cadastrado.
 
-codigo: 1
-c2: 5
 Filme cadastrado 15 - Shrek
-codigo: #
 
 Total de filmes alugados: 1 com custo de R$4
 

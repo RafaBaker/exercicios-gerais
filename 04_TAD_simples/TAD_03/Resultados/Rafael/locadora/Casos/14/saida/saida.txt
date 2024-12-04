@@ -1,10 +1,5 @@
-codigo: 2
-c2: ,
 Filme cadastrado 2 - Tomb Raider
-codigo: 3
-c2: ,
 Filme cadastrado 3 - Sword Fish
-codigo: #
 
 Filme 1 nao cadastrado.
 
@@ -12,13 +7,8 @@ Filme 1 nao cadastrado.
 3 - Sword Fish Fitas em estoque: 1
 2 - Tomb Raider Fitas em estoque: 1
 
-codigo: 4
-c2: ,
 Filme cadastrado 4 - Shrek
-codigo: 1
-c2: ,
 Filme cadastrado 1 - Donnie Darko
-codigo: #
 
 ~ESTOQUE~
 1 - Donnie Darko Fitas em estoque: 2

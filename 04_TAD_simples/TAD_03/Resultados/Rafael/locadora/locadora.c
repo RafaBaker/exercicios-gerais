@@ -135,9 +135,11 @@ tLocadora lerAluguelLocadora (tLocadora locadora)
     while (1)
     {
         scanf("%c", &c1);
+        printf("c1: %c\n", c1);
         if (c1 == '#') break;
 
         scanf("%c", &c2);
+        printf("c2: %c\n", c2);
         if (c2 == '\n')
         {
             codigo = c1 - '0';

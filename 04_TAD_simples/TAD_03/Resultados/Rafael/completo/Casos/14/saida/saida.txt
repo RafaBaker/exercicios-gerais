@@ -1,10 +1,5 @@
-codigo: 2
-c2: ,
 Filme cadastrado 2 - Tomb Raider
-codigo: 3
-c2: ,
 Filme cadastrado 3 - Sword Fish
-codigo: #
 
 Filme 1 nao cadastrado.
 
@@ -12,13 +7,8 @@ Filme 1 nao cadastrado.
 3 - Sword Fish Fitas em estoque: 1
 2 - Tomb Raider Fitas em estoque: 1
 
-codigo: 4
-c2: ,
 Filme cadastrado 4 - Shrek
-codigo: 1
-c2: ,
 Filme cadastrado 1 - Donnie Darko
-codigo: #
 
 ~ESTOQUE~
 1 - Donnie Darko Fitas em estoque: 2
@@ -26,11 +16,11 @@ codigo: #
 3 - Sword Fish Fitas em estoque: 1
 2 - Tomb Raider Fitas em estoque: 1
 
-Filme -376 nao cadastrado.
+Total de filmes alugados: 1 com custo de R$4
 
-Filme -376 nao cadastrado.
+Filme 4 - Shrek nao disponivel no estoque. Volte mais tarde.
 
-Nao e possivel devolver o filme 4 - Shrek.
+Filme 4 - Shrek Devolvido!
 
 Total de filmes alugados: 1 com custo de R$4
 
@@ -44,5 +34,4 @@ Filme 2 - Tomb Raider Devolvido!
 3 - Sword Fish Fitas em estoque: 1
 2 - Tomb Raider Fitas em estoque: 1
 
-
-Lucro total R$5
+Lucro total R$9

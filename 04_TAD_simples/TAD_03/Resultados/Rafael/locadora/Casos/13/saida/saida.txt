@@ -1,10 +1,5 @@
-codigo: 2
-c2: ,
 Filme cadastrado 2 - Tomb Raider
-codigo: 3
-c2: ,
 Filme cadastrado 3 - Sword Fish
-codigo: #
 
 Filme 1 nao cadastrado.
 

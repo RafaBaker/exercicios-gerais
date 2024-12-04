@@ -1,19 +1,8 @@
-codigo: 2
-c2: ,
 Filme cadastrado 2 - Shrek
-codigo: 3
-c2: ,
 Filme cadastrado 3 - A Mumia
-codigo: 1
-c2: ,
 Filme cadastrado 1 - Matrix
-codigo: 6
-c2: ,
 Filme cadastrado 6 - A Sociedade Do Anel
-codigo: 1
-c2: ,
 Filme ja cadastrado no estoque
-codigo: #
 
 Nao e possivel devolver o filme 1 - Matrix.
 

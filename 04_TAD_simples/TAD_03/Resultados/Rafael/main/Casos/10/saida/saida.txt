@@ -1,22 +1,31 @@
+op: Cadastrar
 Filme cadastrado 1 - A Sociedade Do Anel
 
+op: Alugar
 Total de filmes alugados: 1 com custo de R$5
 
+op: Estoque
 ~ESTOQUE~
 1 - A Sociedade Do Anel Fitas em estoque: 0
 
+op: Cadastrar
 Filme cadastrado 15 - Shrek
 
+op: Estoque
 ~ESTOQUE~
 1 - A Sociedade Do Anel Fitas em estoque: 0
 15 - Shrek Fitas em estoque: 1
 
+op: Devolver
 Filme 1 - A Sociedade Do Anel Devolvido!
 
+op: Alugar
 Total de filmes alugados: 1 com custo de R$4
 
+op: Devolver
 Filme 15 - Shrek Devolvido!
 
+op: Estoque
 ~ESTOQUE~
 1 - A Sociedade Do Anel Fitas em estoque: 1
 15 - Shrek Fitas em estoque: 1

@@ -1,10 +1,6 @@
-codigo: 1
-c2: ,
 Filme cadastrado 1 - A Sociedade Do Anel
-codigo: #
 
 Total de filmes alugados: 1 com custo de R$5
 
 ~ESTOQUE~
 1 - A Sociedade Do Anel Fitas em estoque: 0
-

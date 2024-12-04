@@ -7,6 +7,6 @@ locadora.c:133:9: warning: unused variable ‘i’ [-Wunused-variable]
   133 |     int i;
       |         ^
 locadora.c: In function ‘lerDevolucaoLocadora’:
-locadora.c:215:9: warning: unused variable ‘i’ [-Wunused-variable]
-  215 |     int i;
+locadora.c:217:9: warning: unused variable ‘i’ [-Wunused-variable]
+  217 |     int i;
       |         ^

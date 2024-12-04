@@ -1,19 +1,8 @@
-codigo: 2
-c2: 1
 Filme cadastrado 21 - The Last Castle
-codigo: 2
-c2: 2
 Filme cadastrado 22 - Black Knight
-codigo: 2
-c2: 3
 Filme cadastrado 23 - Legally Blonde
-codigo: 2
-c2: 4
 Filme cadastrado 24 - The Glass House
-codigo: 2
-c2: 5
 Filme cadastrado 25 - Tomb Raider
-codigo: #
 
 ~ESTOQUE~
 22 - Black Knight Fitas em estoque: 3
@@ -38,22 +27,11 @@ Total de filmes alugados: 2 com custo de R$15
 21 - The Last Castle Fitas em estoque: 4
 25 - Tomb Raider Fitas em estoque: 0
 
-codigo: 2
-c2: 6
 Filme cadastrado 26 - Vanilla Sky
-codigo: 2
-c2: 7
 Filme cadastrado 27 - Atlantis
-codigo: 2
-c2: 8
 Filme cadastrado 28 - Spy Kids
-codigo: 2
-c2: 9
 Filme cadastrado 29 - Enemy Gates
-codigo: 3
-c2: 0
 Filme cadastrado 30 - Jimmy Neutron
-codigo: #
 
 ~ESTOQUE~
 27 - Atlantis Fitas em estoque: 2
@@ -105,6 +83,5 @@ Filme 29 - Enemy Gates Devolvido!
 21 - The Last Castle Fitas em estoque: 5
 25 - Tomb Raider Fitas em estoque: 2
 26 - Vanilla Sky Fitas em estoque: 4
-
 
 Lucro total R$111

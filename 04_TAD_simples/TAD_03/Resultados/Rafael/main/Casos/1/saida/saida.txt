@@ -1,5 +1,7 @@
+op: Cadastrar
 Filme cadastrado 2 - Shrek
 
+op: Estoque
 ~ESTOQUE~
 2 - Shrek Fitas em estoque: 1
 
