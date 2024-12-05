@@ -1,0 +1,4 @@
+empresa.c: In function ‘leEmpresa’:
+empresa.c:27:13: warning: unused variable ‘qtd’ [-Wunused-variable]
+   27 |     int id, qtd;
+      |             ^~~
