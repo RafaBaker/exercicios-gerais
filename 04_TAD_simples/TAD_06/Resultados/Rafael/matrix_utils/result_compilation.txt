@@ -1,0 +1,14 @@
+matrix_utils.c: In function ‘MatrixRead’:
+matrix_utils.c:24:21: warning: unused variable ‘cols’ [-Wunused-variable]
+   24 |     int i, j, rows, cols;
+      |                     ^~~~
+matrix_utils.c:24:15: warning: unused variable ‘rows’ [-Wunused-variable]
+   24 |     int i, j, rows, cols;
+      |               ^~~~
+matrix_utils.c: In function ‘MatrixMultiply’:
+matrix_utils.c:141:24: warning: unused variable ‘soma’ [-Wunused-variable]
+  141 |     int i, j, k, mult, soma;
+      |                        ^~~~
+matrix_utils.c:141:18: warning: unused variable ‘mult’ [-Wunused-variable]
+  141 |     int i, j, k, mult, soma;
+      |                  ^~~~
