@@ -2,6 +2,7 @@
     "files.associations": {
         "stdio.h": "c",
         "tabuleiro.h": "c",
-        "conta.h": "c"
+        "conta.h": "c",
+        "utils_char.h": "c"
     }
 }
