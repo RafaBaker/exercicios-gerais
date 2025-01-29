@@ -1,26 +1,16 @@
-==63207== Memcheck, a memory error detector
-==63207== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==63207== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
-==63207== Command: Resultados/Rafael/aluno/prog Resultados/Rafael/aluno/Casos/1
-==63207== Parent PID: 63206
-==63207== 
-==63207== 
-==63207== HEAP SUMMARY:
-==63207==     in use at exit: 176 bytes in 8 blocks
-==63207==   total heap usage: 13 allocs, 5 frees, 4,368 bytes allocated
-==63207== 
-==63207== 176 (96 direct, 80 indirect) bytes in 4 blocks are definitely lost in loss record 2 of 2
-==63207==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
-==63207==    by 0x1091FE: CriaAluno (in /workspaces/exercicios-gerais/07_TAD_opaco/TAD_opac_04/Resultados/Rafael/aluno/prog)
-==63207==    by 0x1092A1: LeAluno (in /workspaces/exercicios-gerais/07_TAD_opaco/TAD_opac_04/Resultados/Rafael/aluno/prog)
-==63207==    by 0x109547: main (in /workspaces/exercicios-gerais/07_TAD_opaco/TAD_opac_04/Resultados/Rafael/aluno/prog)
-==63207== 
-==63207== LEAK SUMMARY:
-==63207==    definitely lost: 96 bytes in 4 blocks
-==63207==    indirectly lost: 80 bytes in 4 blocks
-==63207==      possibly lost: 0 bytes in 0 blocks
-==63207==    still reachable: 0 bytes in 0 blocks
-==63207==         suppressed: 0 bytes in 0 blocks
-==63207== 
-==63207== For lists of detected and suppressed errors, rerun with: -s
-==63207== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+==18915== Memcheck, a memory error detector
+==18915== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==18915== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==18915== Command: Resultados/Rafael/aluno/prog Resultados/Rafael/aluno/Casos/1
+==18915== Parent PID: 18914
+==18915== 
+==18915== error calling PR_SET_PTRACER, vgdb might block
+==18915== 
+==18915== HEAP SUMMARY:
+==18915==     in use at exit: 0 bytes in 0 blocks
+==18915==   total heap usage: 10 allocs, 10 frees, 1,146 bytes allocated
+==18915== 
+==18915== All heap blocks were freed -- no leaks are possible
+==18915== 
+==18915== For lists of detected and suppressed errors, rerun with: -s
+==18915== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
