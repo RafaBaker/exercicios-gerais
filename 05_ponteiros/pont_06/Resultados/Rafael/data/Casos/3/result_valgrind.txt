@@ -1,0 +1,7 @@
+==7844== Memcheck, a memory error detector
+==7844== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7844== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==7844== Command: Resultados/Rafael/data/prog Resultados/Rafael/data/Casos/3
+==7844== Parent PID: 7843
+==7844== 
+==7844== error calling PR_SET_PTRACER, vgdb might block

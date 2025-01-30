@@ -1,0 +1,21 @@
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+/usr/bin/ld: Resultados/Rafael/completo/banco.o: in function `CriaBanco':
+banco.c:(.text+0xbe): undefined reference to `CriaConta'
+/usr/bin/ld: Resultados/Rafael/completo/banco.o: in function `DestroiBanco':
+banco.c:(.text+0x12c): undefined reference to `DestroiConta'
+/usr/bin/ld: Resultados/Rafael/completo/banco.o: in function `AbreContaBanco':
+banco.c:(.text+0x17d): undefined reference to `LeConta'
+/usr/bin/ld: Resultados/Rafael/completo/banco.o: in function `SaqueContaBanco':
+banco.c:(.text+0x1fa): undefined reference to `VerificaConta'
+/usr/bin/ld: banco.c:(.text+0x224): undefined reference to `SaqueConta'
+/usr/bin/ld: Resultados/Rafael/completo/banco.o: in function `DepositoContaBanco':
+banco.c:(.text+0x2b7): undefined reference to `VerificaConta'
+/usr/bin/ld: banco.c:(.text+0x2e1): undefined reference to `DepositoConta'
+/usr/bin/ld: Resultados/Rafael/completo/banco.o: in function `TransferenciaContaBanco':
+banco.c:(.text+0x386): undefined reference to `VerificaConta'
+/usr/bin/ld: banco.c:(.text+0x3ce): undefined reference to `VerificaConta'
+/usr/bin/ld: banco.c:(.text+0x429): undefined reference to `TransferenciaConta'
+/usr/bin/ld: Resultados/Rafael/completo/banco.o: in function `ImprimeRelatorioBanco':
+banco.c:(.text+0x487): undefined reference to `ImprimeConta'
+collect2: error: ld returned 1 exit status

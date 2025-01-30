@@ -1,0 +1,8 @@
+/usr/bin/ld: Resultados/Rafael/usuario/conta.o: in function `DestroiConta':
+conta.c:(.text+0x5c): undefined reference to `DestroiUsuario'
+/usr/bin/ld: Resultados/Rafael/usuario/conta.o: in function `LeConta':
+conta.c:(.text+0x85): undefined reference to `CriaUsuario'
+/usr/bin/ld: conta.c:(.text+0x9d): undefined reference to `LeUsuario'
+/usr/bin/ld: Resultados/Rafael/usuario/conta.o: in function `ImprimeConta':
+conta.c:(.text+0x133): undefined reference to `ImprimeUsuario'
+collect2: error: ld returned 1 exit status

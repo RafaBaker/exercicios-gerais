@@ -1,0 +1,17 @@
+==26533== Memcheck, a memory error detector
+==26533== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==26533== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==26533== Command: Resultados/Rafael/evento/prog Resultados/Rafael/evento/Casos/6
+==26533== Parent PID: 26532
+==26533== 
+==26533== error calling PR_SET_PTRACER, vgdb might block
+==26533== Conditional jump or move depends on uninitialised value(s)
+==26533==    at 0x484EE72: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==26533==    by 0x10927F: cadastrarEvento (in /home/rafael/exercicios-gerais/05_ponteiros/pont_07/Resultados/Rafael/evento/prog)
+==26533==    by 0x10984D: main (in /home/rafael/exercicios-gerais/05_ponteiros/pont_07/Resultados/Rafael/evento/prog)
+==26533== 
+==26533== Conditional jump or move depends on uninitialised value(s)
+==26533==    at 0x484EE87: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==26533==    by 0x10927F: cadastrarEvento (in /home/rafael/exercicios-gerais/05_ponteiros/pont_07/Resultados/Rafael/evento/prog)
+==26533==    by 0x10984D: main (in /home/rafael/exercicios-gerais/05_ponteiros/pont_07/Resultados/Rafael/evento/prog)
+==26533== 
