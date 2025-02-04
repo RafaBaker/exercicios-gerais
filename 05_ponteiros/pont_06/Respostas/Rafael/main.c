@@ -12,9 +12,9 @@ int main()
     LeData(&dataFim);
 
     data = dataIni;
-    while (!EhIgual(data, dataFim))
+    while (!EhIgual(&data, &dataFim))
     {
-        ImprimeData(data);
+        ImprimeData(&data);
         printf("\n");
 
         AvancaParaDiaSeguinte(&data);

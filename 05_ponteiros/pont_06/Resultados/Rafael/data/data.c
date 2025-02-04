@@ -42,6 +42,14 @@ void LeData(tData *data)
     scanf("%*c");
 
     InicializaDataParam(dia, mes, ano, data);
+
+    //validando a data
+    int diasMes = InformaQtdDiasNoMes(data);
+    //printf("diaMes %d\n", diasMes);
+    if (diasMes < dia)
+    {
+        data->dia = diasMes;
+    }
 }
 
 /**
