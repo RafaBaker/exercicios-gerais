@@ -24,8 +24,11 @@ tPessoa CriaPessoa()
  */
 void LePessoa(tPessoa *pessoa)
 {
+    //scanf("%[^\n]");
+    scanf("\n");
     scanf("%[^\n]s", pessoa->nome);
     scanf("%*c");
+    //printf("pessoa lida: %s\n", pessoa->nome);
 }
 
 /**
@@ -80,16 +83,30 @@ void ImprimePessoa(tPessoa *pessoa)
  */
 void AssociaFamiliasGruposPessoas(tPessoa *pessoas)
 {
-    int mae, pai, filho;
-    if (scanf("mae: %d, pai: %d, filho: %d", &mae, &pai, &filho) == 3)
+    int qtd, mae = 0, pai = 0, filho = 0;
+    //char test[100];
+    //scanf("%[^\n]s", test);
+    //printf("test: %s\n", test);
+    scanf("%d\n", &qtd);
+    //printf("qtd: %d\n", qtd);
+    for (int i = 0; i < qtd; i++)
     {
+        //printf("i: %d\n", i);
+        // scanf("%[^\n]s", test);
+        // scanf("%*c");
+        // printf("test: %s\n", test);
+        scanf("mae: %d, pai: %d, filho: %d", &mae, &pai, &filho);
+        scanf("%*c");
+        //printf("pai (id: %d): %s\n", pai, pessoas[pai].nome);   
         if (pai != -1)
         {
-            *pessoas[filho].pai = pessoas[pai];
+            pessoas[filho].pai = &pessoas[pai];
         }
         if (mae != -1)
         {
-            *pessoas[filho].mae = pessoas[mae];
+            //printf("mae: %s\n", pessoas[mae].nome);
+            pessoas[filho].mae = &pessoas[mae];
         }
     }
+    
 }

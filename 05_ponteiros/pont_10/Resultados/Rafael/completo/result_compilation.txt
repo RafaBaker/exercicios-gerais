@@ -1,0 +1,4 @@
+main.c: In function ‘main’:
+main.c:11:13: warning: unused variable ‘pessoas2’ [-Wunused-variable]
+   11 |     tPessoa pessoas2[qtdPessoas];
+      |             ^~~~~~~~
