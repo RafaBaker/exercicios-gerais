@@ -2,3 +2,6 @@ main.c: In function ‘main’:
 main.c:11:13: warning: unused variable ‘pessoas2’ [-Wunused-variable]
    11 |     tPessoa pessoas2[qtdPessoas];
       |             ^~~~~~~~
+main.c:8:21: warning: unused variable ‘qtdAssoc’ [-Wunused-variable]
+    8 |     int qtdPessoas, qtdAssoc;
+      |                     ^~~~~~~~

@@ -18,21 +18,20 @@ int main(int argc, char const *argv[])
         pessoas[i] = pessoa;
     }
 
-    scanf("%d", &qtdAssoc);
-    //printf("qtd:%d\n", qtdAssoc);
-    scanf("^[\n]");
-    scanf("%*c");
+    // scanf("%d", &qtdAssoc);
+    // //printf("qtd:%d\n", qtdAssoc);
+    // scanf("^[\n]");
+    // scanf("%*c");
 
     // char test[50];
     // scanf("%[^\n]s", test);
     // printf("%s\n", test);
     
-    AssociaFamiliasGruposPessoas(pessoas, qtdAssoc);
-    // for (int i = 0; i < qtdPessoas; i++)
-    // {
-    //     printf("oi %d\n", i);
-    //     ImprimePessoa(&pessoas[i]);
-    // }
+    AssociaFamiliasGruposPessoas(pessoas, qtdPessoas);
+    for (int i = 0; i < qtdPessoas; i++)
+    {
+        ImprimePessoa(&pessoas[i]);
+    }
 
     return 0;
 }
