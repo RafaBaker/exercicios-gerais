@@ -24,8 +24,3 @@ Saldo: R$ 45.00
 Nome: lara
 CPF: 5555555
 
-Liberei a conta na posição [0]
-Liberei a conta na posição [1]
-Liberei a conta na posição [2]
-Liberei a conta na posição [3]
-Liberei a conta na posição [4]

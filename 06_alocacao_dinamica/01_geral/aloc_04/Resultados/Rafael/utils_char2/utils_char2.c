@@ -37,16 +37,16 @@ char *CriaVetorTamPadrao()
 char *AumentaTamanhoVetor(char* vetor, int tamanhoantigo)
 {
     int tamanho = tamanhoantigo+TAM_PADRAO+1;
-    char* novoVetor = (char*)realloc(vetor, sizeof(char)*tamanho);
-    assert(novoVetor && "Erro ao realocar");
+    vetor = (char*)realloc(vetor, sizeof(char)*tamanho);
+    assert(vetor && "Erro ao realocar");
     
     int i;
-    for (i = tamanhoantigo; i < tamanho-1; i++)
+    for (i = tamanhoantigo; i < (tamanho-1); i++)
     {
-        novoVetor[i] = '_';
+        vetor[i] = '_';
     }
-    novoVetor[i] = '\0';
-    return novoVetor;
+    vetor[i] = '\0';
+    return vetor;
 }
 
 /**
@@ -60,7 +60,7 @@ char *AumentaTamanhoVetor(char* vetor, int tamanhoantigo)
 */
 char* LeVetor(char *vetor, int *tamanho)
 {
-    printf("tamanho: %d\n", *tamanho);
+    //printf("tamanho: %d\n", *tamanho);
     char c = '_';
     int i = 0;
     while (c != '\n')
@@ -72,9 +72,9 @@ char* LeVetor(char *vetor, int *tamanho)
         }
         vetor[i] = c;
         i++;
-        if (i == tamanho)
+        if (i == *tamanho)
         {
-            vetor = AumentaTamanhoVetor(vetor, tamanho);
+            vetor = AumentaTamanhoVetor(vetor, *tamanho);
             *tamanho += TAM_PADRAO;
         }
     }

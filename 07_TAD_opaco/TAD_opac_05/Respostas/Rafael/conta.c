@@ -24,7 +24,7 @@ tConta *CriaConta()
     assert(conta && "Erro ao alocar a conta");
     conta->usuario = NULL;
     conta->numero = -1;
-    conta->saldo = -1;
+    conta->saldo = -1.0;
     return conta;
 }
 
@@ -35,8 +35,14 @@ tConta *CriaConta()
  */
 void DestroiConta(tConta *conta)
 {
-    DestroiUsuario(conta->usuario);
-    free(conta);
+    if (conta != NULL)
+    {
+        if (conta->usuario != NULL)
+        {
+            DestroiUsuario(conta->usuario);
+        }
+        free(conta);
+    }
 }
 
 /**

@@ -32,6 +32,7 @@ tBanco *CriaBanco()
         //assert(banco->contas[i] && "sla o que deu");
         banco->contas[i] = NULL;
         banco->contas[i] = CriaConta();
+        //printf("Conta [%d] criada: %p\n", i, (void*)banco->contas[i]);
     }
     return banco;
 }
@@ -43,13 +44,27 @@ tBanco *CriaBanco()
  */
 void DestroiBanco(tBanco *banco)
 {
-    for (int i = 0; i < banco->contasAlocadas; i++)
+    int i;
+    if (banco != NULL)
     {
-        printf("Liberei a conta na posição [%d]\n", i);
-        //ImprimeConta(banco->contas[i]);
-        DestroiConta(banco->contas[i]);
+        for (i = 0; i < banco->contasAlocadas; i++)
+        {
+            //printf("Liberei a conta na posição [%d]\n", i);
+            //ImprimeConta(banco->contas[i]);
+            if (banco->contas[i] != NULL)
+            {
+                //printf("Destruindo conta na posição [%d]: %p\n", i, (void*)banco->contas[i]);
+                DestroiConta(banco->contas[i]);
+                banco->contas[i] = NULL;
+            }
+            else
+            {
+                printf("Conta nula!\n");
+            }
+        }
+        free(banco->contas);
+        free(banco);
     }
-    free(banco);
 }
 
 /**
@@ -78,7 +93,8 @@ void SaqueContaBanco(tBanco *banco)
 
     scanf("%d %f ", &numero, &saque);
 
-    for (int i = 0; i < banco->qtdContas; i++)
+    int i;
+    for (i = 0; i < banco->qtdContas; i++)
     {
         if (VerificaConta(banco->contas[i], numero))
         {
@@ -159,4 +175,3 @@ void ImprimeRelatorioBanco(tBanco *banco)
         ImprimeConta(banco->contas[i]);
     }
 }
-

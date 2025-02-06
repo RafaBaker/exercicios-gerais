@@ -9,8 +9,3 @@ Saldo: R$ 45.00
 Nome: mirelly
 CPF: 444555666
 
-Liberei a conta na posição [0]
-Liberei a conta na posição [1]
-Liberei a conta na posição [2]
-Liberei a conta na posição [3]
-Liberei a conta na posição [4]

@@ -9,8 +9,3 @@ Saldo: R$ 250.00
 Nome: afonso
 CPF: 11111111
 
-Liberei a conta na posição [0]
-Liberei a conta na posição [1]
-Liberei a conta na posição [2]
-Liberei a conta na posição [3]
-Liberei a conta na posição [4]
