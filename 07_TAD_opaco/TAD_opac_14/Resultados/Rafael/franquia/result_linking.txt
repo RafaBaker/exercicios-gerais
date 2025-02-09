@@ -1,0 +1,20 @@
+/usr/bin/ld: Resultados/Rafael/franquia/nba.o: in function `BuscaFranquia':
+nba.c:(.text+0x239): undefined reference to `GetNomeFranquia'
+/usr/bin/ld: Resultados/Rafael/franquia/nba.o: in function `ProcessaPartida':
+nba.c:(.text+0x340): undefined reference to `AdicionaVitoriaCasaFranquia'
+/usr/bin/ld: nba.c:(.text+0x34c): undefined reference to `AdicionaDerrotaForaFranquia'
+/usr/bin/ld: nba.c:(.text+0x35a): undefined reference to `AdicionaDerrotaCasaFranquia'
+/usr/bin/ld: nba.c:(.text+0x366): undefined reference to `AdicionaVitoriaForaFranquia'
+/usr/bin/ld: Resultados/Rafael/franquia/nba.o: in function `RodaNBA':
+nba.c:(.text+0x3b7): undefined reference to `LeFranquia'
+/usr/bin/ld: Resultados/Rafael/franquia/nba.o: in function `ImprimeDadosConferencia':
+nba.c:(.text+0x476): undefined reference to `GetConferenciaFranquia'
+/usr/bin/ld: nba.c:(.text+0x4ae): undefined reference to `GetVitoriaCasaFranquia'
+/usr/bin/ld: nba.c:(.text+0x4cf): undefined reference to `GetVitoriaForaFranquia'
+/usr/bin/ld: nba.c:(.text+0x4f0): undefined reference to `GetDerrotaCasaFranquia'
+/usr/bin/ld: nba.c:(.text+0x511): undefined reference to `GetDerrotaForaFranquia'
+/usr/bin/ld: Resultados/Rafael/franquia/nba.o: in function `ImprimeRelatorioNBA':
+nba.c:(.text+0x5d4): undefined reference to `ImprimeFranquia'
+/usr/bin/ld: Resultados/Rafael/franquia/nba.o: in function `LiberaNBA':
+nba.c:(.text+0x698): undefined reference to `LiberaFranquia'
+collect2: error: ld returned 1 exit status

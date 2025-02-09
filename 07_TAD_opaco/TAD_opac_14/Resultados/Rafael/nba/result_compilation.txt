@@ -1,0 +1,10 @@
+nba.c: In function ‘ImprimeRelatorioNBA’:
+nba.c:92:33: warning: variable ‘aux’ set but not used [-Wunused-but-set-variable]
+   92 |     int vLeste = 0, vOeste = 0, aux = 0;
+      |                                 ^~~
+nba.c:92:21: warning: unused variable ‘vOeste’ [-Wunused-variable]
+   92 |     int vLeste = 0, vOeste = 0, aux = 0;
+      |                     ^~~~~~
+nba.c:92:9: warning: unused variable ‘vLeste’ [-Wunused-variable]
+   92 |     int vLeste = 0, vOeste = 0, aux = 0;
+      |         ^~~~~~

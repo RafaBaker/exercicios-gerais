@@ -28,6 +28,7 @@ tData *CriaData()
     else
     {
         printf("Erro ao alocar data\n");
+        exit(0);
     }
 }
 
@@ -38,7 +39,7 @@ tData *CriaData()
  */
 void LeData(tData *data)
 {
-    scanf("%d/%d/%d", data->dia, data->mes, data->ano);
+    scanf("%d/%d/%d", &data->dia, &data->mes, &data->ano);
     scanf("%*c");
 }
 
@@ -51,6 +52,7 @@ void LiberaData(tData *data)
     if (data != NULL)
     {
         free(data);
+        data = NULL;
     }
 }
 
@@ -67,8 +69,8 @@ int VerificaDataValida(tData *data)
     if (data->mes > 12)
         return 0;
 
-    int dias = numeroDiasMes(mes, ano);
-    if (dia > dias)
+    int dias = NumeroDiasMes(data);
+    if (data->dia > dias)
         return 0;
 
     return 1;
@@ -79,14 +81,62 @@ int VerificaDataValida(tData *data)
  *
  * @param data Data cujo mês será impresso em formato extenso.
  */
-void ImprimeMesExtenso(tData *data);
+void ImprimeMesExtenso(tData *data)
+{
+    switch (data->mes)
+    {
+    case 1:
+        printf("Janeiro");
+        break;
+    case 2:
+        printf("Fevereiro");
+        break;
+    case 3:
+        printf("Março");
+        break;
+    case 4:
+        printf("Abril");
+        break;
+    case 5:
+        printf("Maio");
+        break;
+    case 6:
+        printf("Junho");
+        break;
+    case 7:
+        printf("Julho");
+        break;
+    case 8:
+        printf("Agosto");
+        break;
+    case 9:
+        printf("Setembro");
+        break;
+    case 10:
+        printf("Outubro");
+        break;
+    case 11:
+        printf("Novembro");
+        break;
+    case 12:
+        printf("Dezembro");
+        break;
+    default:
+        break;
+    }
+}
 
 /**
  * @brief Imprime uma data em formato extenso.
  *
  * @param data Data a ser impressa em formato extenso.
  */
-void ImprimeDataExtenso(tData *data);
+void ImprimeDataExtenso(tData *data)
+{
+    printf("%02d de ", data->dia);
+    ImprimeMesExtenso(data);
+    printf(" de %4d\n", data->ano);
+}
 
 /**
  * @brief Verifica se um ano é bissexto.
@@ -109,7 +159,7 @@ int NumeroDiasMes(tData *data)
 {
     if (data->mes == 2)
     {
-        if (verificaBissexto(data->ano))
+        if (VerificaBissexto(data))
         {
             return 29;
         }
@@ -137,16 +187,17 @@ int ComparaData(tData *data1, tData *data2)
 {
     if (data1->ano > data2->ano)
         return 1;
-    if (data1->ano > data2->ano)
+    if (data1->ano < data2->ano)
         return -1;
     if (data1->mes > data2->mes)
         return 1;
-    if (data1->mes > data2->mes)
+    if (data1->mes < data2->mes)
         return -1;
     if (data1->dia > data2->dia)
         return 1;
-    if (data1->dia > data2->dia)
+    if (data1->dia < data2->dia)
         return -1;
+    return 0;
 }
 
 /**
@@ -158,9 +209,12 @@ int ComparaData(tData *data1, tData *data2)
 int CalculaDiasAteMes(tData *data)
 {
     int i, dias, total = 0;
+    tData d;
+    d.ano = data->ano;
     for (i = 1; i < data->mes; i++)
     {
-        dias = numeroDiasMes(data);
+        d.mes = i;
+        dias = NumeroDiasMes(&d);
         total += dias;
     }
     return total;
@@ -176,31 +230,69 @@ int CalculaDiasAteMes(tData *data)
 int CalculaDiferencaDias(tData *data1, tData *data2)
 {
 
-    int dias1 = 0, dias2 = 0, i, difAnos = 0;
+    int dias1 = data1->dia, dias2 = data2->dia;
+    tData i;
+
+    // dias no ano
+    dias1 += CalculaDiasAteMes(data1);
+    dias2 += CalculaDiasAteMes(data2);
+
+    int difAnos = 0;
     if (data1->ano > data2->ano)
     {
-        for (i = data2->ano; i < data1->ano; i++)
+        //difAnos = data1->ano - data2->ano;
+        for (i = *data2; i.ano < data1->ano; i.ano++)
         {
-            difAnos += calculaDiasAteMes(13, i);
+            difAnos += VerificaBissexto(&i) ? 366 : 365;
         }
     }
     else if (data2->ano > data1->ano)
     {
-        for (i = data1->ano; i < data2->ano; i++)
+        //difAnos = data2->ano - data1->ano;
+        for (i = *data1; i.ano < data2->ano; i.ano++)
         {
-            difAnos += calculaDiasAteMes(13, i);
+            difAnos += VerificaBissexto(&i) ? 366 : 365;
         }
     }
-    dias1 = calculaDiasAteMes(mes1, data1->ano);
-    dias1 += dia1;
-    dias2 = calculaDiasAteMes(mes2, data2->ano);
-    dias2 += dia2;
+    // if (i != NULL)
+    // {
+    //     LiberaData(i);
+    
+    // }
     int dif = dias2 - dias1;
     if (dif >= 0)
-        return dif + difAnos;
-    else
     {
-        dif = dif * (-1);
         return dif + difAnos;
     }
+    else
+    {
+        dif = dif*(-1);
+        return dif+difAnos;
+    }
+    // if (data1->ano > data2->ano)
+    // {
+    //     for (i = data2->ano; i < data1->ano; i++)
+    //     {
+    //         difAnos += calculaDiasAteMes(13, i);
+    //     }
+    // }
+    // else if (data2->ano > data1->ano)
+    // {
+    //     for (i = data1->ano; i < data2->ano; i++)
+    //     {
+    //         difAnos += calculaDiasAteMes(13, i);
+    //     }
+    // }
+    // dias1 = calculaDiasAteMes(mes1, data1->ano);
+    // dias1 += dia1;
+    // dias2 = calculaDiasAteMes(mes2, data2->ano);
+    // dias2 += dia2;
+    // int dif = dias2 - dias1;
+    // if (dif >= 0)
+    //     return dif + difAnos;
+    // else
+    // {
+    //     dif = dif * (-1);
+    //     return dif + difAnos;
+    // }
 }

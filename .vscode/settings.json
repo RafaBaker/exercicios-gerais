@@ -4,7 +4,12 @@
     "tabuleiro.h": "c",
     "conta.h": "c",
     "utils_char.h": "c",
-    "usuario.h": "c"
+    "usuario.h": "c",
+    "data.h": "c",
+    "array": "c",
+    "string": "c",
+    "string_view": "c",
+    "franquia.h": "c"
   },
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",
