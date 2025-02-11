@@ -1,0 +1,4 @@
+agencia.c: In function ‘LeOperacoes’:
+agencia.c:114:10: warning: unused variable ‘buffer’ [-Wunused-variable]
+  114 |     char buffer[100];
+      |          ^~~~~~

@@ -1,0 +1,25 @@
+ProcessaDiaMesAno: str  1/1/2022
+ProcessaDiaMesAno: data->dia 1 data->mes 1 data->ano 2022
+ProcessaHorario: str  0:00
+ProcessaHorario: data->hora 0
+ProcessaHorario: data->minuto 0
+ProcessaDiaMesAno: str  25/10/2023
+ProcessaDiaMesAno: data->dia 25 data->mes 10 data->ano 2023
+ProcessaHorario: str  08:00
+ProcessaHorario: data->hora 8
+ProcessaHorario: data->minuto 0
+data1: 01/01/2022
+data2: 25/10/2023
+dif dias: 297
+data1: 01/01/2022 dia semana: 6
+hora1: 00:00
+data2: 02/01/2022 dia semana: 6
+hora2: 00:00
+dif: 0.00
+data1: 25/10/2023 dia semana: 6
+hora1: 00:00
+data2: 25/10/2023 dia semana: 6
+hora2: 08:00
+dif: 8.00
+O tiquete processado tem valor: 31792.00 reais
+O sistema faturou: 31792.00 reais

@@ -90,13 +90,13 @@ LINKANDO OS ARQUIVOS COMPILADOS:
  - Arquivo de output gerado: Resultados/Rafael/nba/result_linking.txt
  - Pasta franquia:
  - Gerando o binário prog linkando com o(s) arquivo(s) franquia/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/Rafael/franquia/result_linking.txt
  - Pasta partida:
  - Gerando o binário prog linkando com o(s) arquivo(s) partida/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/Rafael/partida/result_linking.txt
- - Arquivos Linkados: Erro! 4 arquivos com erros de linkagem.
+ - Arquivos Linkados: Erro! 2 arquivos com erros de linkagem.
 
 EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta main / Caso 1:
@@ -190,9 +190,9 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta nba / Caso 10:
  - Arquivo de output gerado: Resultados/Rafael/nba/Casos/10/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 52, frees: 52, errors: 8 | Desconto do valgrind 50.00%
+ - Valgrind: Ok! allocs: 52, frees: 52, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta nba / Caso 2:
  - Arquivo de output gerado: Resultados/Rafael/nba/Casos/2/result_valgrind.txt.
  - Valgrind: Ok! allocs: 16, frees: 16, errors: 0 | Desconto do valgrind: 0.0%
@@ -210,9 +210,9 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta nba / Caso 5:
  - Arquivo de output gerado: Resultados/Rafael/nba/Casos/5/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 103, frees: 103, errors: 45 | Desconto do valgrind 50.00%
+ - Valgrind: Ok! allocs: 103, frees: 103, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta nba / Caso 6:
  - Arquivo de output gerado: Resultados/Rafael/nba/Casos/6/result_valgrind.txt.
  - Valgrind: Ok! allocs: 31, frees: 31, errors: 0 | Desconto do valgrind: 0.0%
@@ -236,88 +236,108 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Nota para a pasta nba (máximo 2.00) - 0 de 100 - 0% de 2.00: 0.
  -----
  - Pasta franquia / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Rafael/franquia/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 31, frees: 31, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta franquia / Caso 10:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Rafael/franquia/Casos/10/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 56, frees: 56, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta franquia / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Rafael/franquia/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 19, frees: 19, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta franquia / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Rafael/franquia/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 7, frees: 7, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta franquia / Caso 4:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Rafael/franquia/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 34, frees: 34, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta franquia / Caso 5:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Rafael/franquia/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 108, frees: 108, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta franquia / Caso 6:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Rafael/franquia/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 34, frees: 34, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta franquia / Caso 7:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Rafael/franquia/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 10, frees: 10, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta franquia / Caso 8:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Rafael/franquia/Casos/8/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 40, frees: 40, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta franquia / Caso 9:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
- - Nota para a pasta franquia (máximo 2.00) - 0 de 100 - 0% de 2.00: 0.
+ - Arquivo de output gerado: Resultados/Rafael/franquia/Casos/9/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 37, frees: 37, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta franquia (máximo 2.00) - 100.00 de 100 - 100.00% de 2.00: 2.00.
  -----
  - Pasta partida / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Rafael/partida/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 31, frees: 31, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta partida / Caso 10:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Rafael/partida/Casos/10/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 56, frees: 56, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta partida / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Rafael/partida/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 19, frees: 19, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta partida / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Rafael/partida/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 7, frees: 7, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta partida / Caso 4:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Rafael/partida/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 34, frees: 34, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta partida / Caso 5:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Rafael/partida/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 108, frees: 108, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta partida / Caso 6:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Rafael/partida/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 34, frees: 34, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta partida / Caso 7:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Rafael/partida/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 10, frees: 10, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta partida / Caso 8:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Rafael/partida/Casos/8/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 40, frees: 40, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta partida / Caso 9:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
- - Nota para a pasta partida (máximo 2.00) - 0 de 100 - 0% de 2.00: 0.
+ - Arquivo de output gerado: Resultados/Rafael/partida/Casos/9/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 37, frees: 37, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta partida (máximo 2.00) - 100.00 de 100 - 100.00% de 2.00: 2.00.
  -----
 
 #######################################
@@ -328,7 +348,7 @@ RESULTADOS FINAIS
 Aluno: Rafael
  - Arquivos Esperados Corretos: 7 de 7
  - Pastas Compiladas Corretamente: 5 de 5 
- - Pastas Linkadas Corretamente: 1 de 5
+ - Pastas Linkadas Corretamente: 3 de 5
  - Teste main
  - Resultados corretos: 0 de 10
  - Valgrinds corretos: 0 de 10
@@ -339,18 +359,18 @@ Aluno: Rafael
  - Nota de Rafael para o teste completo: 0
  - Teste nba
  - Resultados corretos: 0 de 10
- - Valgrinds corretos: 8 de 10
+ - Valgrinds corretos: 10 de 10
  - Nota de Rafael para o teste nba: 0
  - Teste franquia
- - Resultados corretos: 0 de 10
- - Valgrinds corretos: 0 de 10
- - Nota de Rafael para o teste franquia: 0
+ - Resultados corretos: 10 de 10
+ - Valgrinds corretos: 10 de 10
+ - Nota de Rafael para o teste franquia: 2.00
  - Teste partida
- - Resultados corretos: 0 de 10
- - Valgrinds corretos: 0 de 10
- - Nota de Rafael para o teste partida: 0
- - Nota de Rafael: 0+(0)+(0)+(0)+(0)+(0)
- - Nota de Rafael: 0
+ - Resultados corretos: 10 de 10
+ - Valgrinds corretos: 10 de 10
+ - Nota de Rafael para o teste partida: 2.00
+ - Nota de Rafael: 0+(2.00)+(0)+(2.00)+(0)+(0)
+ - Nota de Rafael: 4.00
 
 ----------------------------------------------------------------------------
 

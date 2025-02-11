@@ -1,0 +1,1345 @@
+ProcessaDiaMesAno: str  01/01/2023
+ProcessaDiaMesAno: data->dia 1 data->mes 1 data->ano 2023
+ProcessaHorario: str  10:00
+ProcessaHorario: data->hora 10
+ProcessaHorario: data->minuto 0
+ProcessaDiaMesAno: str  02/01/2023
+ProcessaDiaMesAno: data->dia 2 data->mes 1 data->ano 2023
+ProcessaHorario: str  11:15
+ProcessaHorario: data->hora 11
+ProcessaHorario: data->minuto 15
+data1: 01/01/2023
+data2: 02/01/2023
+dif dias: 1
+data1: 01/01/2023 dia semana: 1
+hora1: 10:00
+data2: 02/01/2023 dia semana: 1
+hora2: 10:00
+dif: 0.00
+data1: 02/01/2023 dia semana: 1
+hora1: 10:00
+data2: 02/01/2023 dia semana: 1
+hora2: 11:15
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  02/01/2023
+ProcessaDiaMesAno: data->dia 2 data->mes 1 data->ano 2023
+ProcessaHorario: str  02:30
+ProcessaHorario: data->hora 2
+ProcessaHorario: data->minuto 30
+ProcessaDiaMesAno: str  03/01/2023
+ProcessaDiaMesAno: data->dia 3 data->mes 1 data->ano 2023
+ProcessaHorario: str  03:45
+ProcessaHorario: data->hora 3
+ProcessaHorario: data->minuto 45
+data1: 02/01/2023
+data2: 03/01/2023
+dif dias: 1
+data1: 02/01/2023 dia semana: 2
+hora1: 02:30
+data2: 03/01/2023 dia semana: 2
+hora2: 02:30
+dif: 0.00
+data1: 03/01/2023 dia semana: 2
+hora1: 02:30
+data2: 03/01/2023 dia semana: 2
+hora2: 03:45
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  03/01/2023
+ProcessaDiaMesAno: data->dia 3 data->mes 1 data->ano 2023
+ProcessaHorario: str  04:45
+ProcessaHorario: data->hora 4
+ProcessaHorario: data->minuto 45
+ProcessaDiaMesAno: str  04/01/2023
+ProcessaDiaMesAno: data->dia 4 data->mes 1 data->ano 2023
+ProcessaHorario: str  06:00
+ProcessaHorario: data->hora 6
+ProcessaHorario: data->minuto 0
+data1: 03/01/2023
+data2: 04/01/2023
+dif dias: 1
+data1: 03/01/2023 dia semana: 3
+hora1: 04:45
+data2: 04/01/2023 dia semana: 3
+hora2: 04:45
+dif: 0.00
+data1: 04/01/2023 dia semana: 3
+hora1: 04:45
+data2: 04/01/2023 dia semana: 3
+hora2: 06:00
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  04/01/2023
+ProcessaDiaMesAno: data->dia 4 data->mes 1 data->ano 2023
+ProcessaHorario: str  09:15
+ProcessaHorario: data->hora 9
+ProcessaHorario: data->minuto 15
+ProcessaDiaMesAno: str  05/01/2023
+ProcessaDiaMesAno: data->dia 5 data->mes 1 data->ano 2023
+ProcessaHorario: str  10:30
+ProcessaHorario: data->hora 10
+ProcessaHorario: data->minuto 30
+data1: 04/01/2023
+data2: 05/01/2023
+dif dias: 1
+data1: 04/01/2023 dia semana: 4
+hora1: 09:15
+data2: 05/01/2023 dia semana: 4
+hora2: 09:15
+dif: 0.00
+data1: 05/01/2023 dia semana: 4
+hora1: 09:15
+data2: 05/01/2023 dia semana: 4
+hora2: 10:30
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  05/01/2023
+ProcessaDiaMesAno: data->dia 5 data->mes 1 data->ano 2023
+ProcessaHorario: str  11:30
+ProcessaHorario: data->hora 11
+ProcessaHorario: data->minuto 30
+ProcessaDiaMesAno: str  06/01/2023
+ProcessaDiaMesAno: data->dia 6 data->mes 1 data->ano 2023
+ProcessaHorario: str  12:45
+ProcessaHorario: data->hora 12
+ProcessaHorario: data->minuto 45
+data1: 05/01/2023
+data2: 06/01/2023
+dif dias: 1
+data1: 05/01/2023 dia semana: 5
+hora1: 11:30
+data2: 06/01/2023 dia semana: 5
+hora2: 11:30
+dif: 0.00
+data1: 06/01/2023 dia semana: 5
+hora1: 11:30
+data2: 06/01/2023 dia semana: 5
+hora2: 12:45
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  06/01/2023
+ProcessaDiaMesAno: data->dia 6 data->mes 1 data->ano 2023
+ProcessaHorario: str  06:00
+ProcessaHorario: data->hora 6
+ProcessaHorario: data->minuto 0
+ProcessaDiaMesAno: str  07/01/2023
+ProcessaDiaMesAno: data->dia 7 data->mes 1 data->ano 2023
+ProcessaHorario: str  07:15
+ProcessaHorario: data->hora 7
+ProcessaHorario: data->minuto 15
+data1: 06/01/2023
+data2: 07/01/2023
+dif dias: 1
+data1: 06/01/2023 dia semana: 6
+hora1: 06:00
+data2: 07/01/2023 dia semana: 6
+hora2: 06:00
+dif: 0.00
+data1: 07/01/2023 dia semana: 6
+hora1: 06:00
+data2: 07/01/2023 dia semana: 6
+hora2: 07:15
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  07/01/2023
+ProcessaDiaMesAno: data->dia 7 data->mes 1 data->ano 2023
+ProcessaHorario: str  01:45
+ProcessaHorario: data->hora 1
+ProcessaHorario: data->minuto 45
+ProcessaDiaMesAno: str  08/01/2023
+ProcessaDiaMesAno: data->dia 8 data->mes 1 data->ano 2023
+ProcessaHorario: str  03:00
+ProcessaHorario: data->hora 3
+ProcessaHorario: data->minuto 0
+data1: 07/01/2023
+data2: 08/01/2023
+dif dias: 1
+data1: 07/01/2023 dia semana: 0
+hora1: 01:45
+data2: 08/01/2023 dia semana: 0
+hora2: 01:45
+dif: 0.00
+data1: 08/01/2023 dia semana: 0
+hora1: 01:45
+data2: 08/01/2023 dia semana: 0
+hora2: 03:00
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  08/01/2023
+ProcessaDiaMesAno: data->dia 8 data->mes 1 data->ano 2023
+ProcessaHorario: str  08:30
+ProcessaHorario: data->hora 8
+ProcessaHorario: data->minuto 30
+ProcessaDiaMesAno: str  09/01/2023
+ProcessaDiaMesAno: data->dia 9 data->mes 1 data->ano 2023
+ProcessaHorario: str  09:45
+ProcessaHorario: data->hora 9
+ProcessaHorario: data->minuto 45
+data1: 08/01/2023
+data2: 09/01/2023
+dif dias: 1
+data1: 08/01/2023 dia semana: 1
+hora1: 08:30
+data2: 09/01/2023 dia semana: 1
+hora2: 08:30
+dif: 0.00
+data1: 09/01/2023 dia semana: 1
+hora1: 08:30
+data2: 09/01/2023 dia semana: 1
+hora2: 09:45
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  09/01/2023
+ProcessaDiaMesAno: data->dia 9 data->mes 1 data->ano 2023
+ProcessaHorario: str  07:00
+ProcessaHorario: data->hora 7
+ProcessaHorario: data->minuto 0
+ProcessaDiaMesAno: str  10/01/2023
+ProcessaDiaMesAno: data->dia 10 data->mes 1 data->ano 2023
+ProcessaHorario: str  08:15
+ProcessaHorario: data->hora 8
+ProcessaHorario: data->minuto 15
+data1: 09/01/2023
+data2: 10/01/2023
+dif dias: 1
+data1: 09/01/2023 dia semana: 2
+hora1: 07:00
+data2: 10/01/2023 dia semana: 2
+hora2: 07:00
+dif: 0.00
+data1: 10/01/2023 dia semana: 2
+hora1: 07:00
+data2: 10/01/2023 dia semana: 2
+hora2: 08:15
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  10/01/2023
+ProcessaDiaMesAno: data->dia 10 data->mes 1 data->ano 2023
+ProcessaHorario: str  05:15
+ProcessaHorario: data->hora 5
+ProcessaHorario: data->minuto 15
+ProcessaDiaMesAno: str  11/01/2023
+ProcessaDiaMesAno: data->dia 11 data->mes 1 data->ano 2023
+ProcessaHorario: str  06:30
+ProcessaHorario: data->hora 6
+ProcessaHorario: data->minuto 30
+data1: 10/01/2023
+data2: 11/01/2023
+dif dias: 1
+data1: 10/01/2023 dia semana: 3
+hora1: 05:15
+data2: 11/01/2023 dia semana: 3
+hora2: 05:15
+dif: 0.00
+data1: 11/01/2023 dia semana: 3
+hora1: 05:15
+data2: 11/01/2023 dia semana: 3
+hora2: 06:30
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  11/01/2023
+ProcessaDiaMesAno: data->dia 11 data->mes 1 data->ano 2023
+ProcessaHorario: str  10:30
+ProcessaHorario: data->hora 10
+ProcessaHorario: data->minuto 30
+ProcessaDiaMesAno: str  12/01/2023
+ProcessaDiaMesAno: data->dia 12 data->mes 1 data->ano 2023
+ProcessaHorario: str  11:45
+ProcessaHorario: data->hora 11
+ProcessaHorario: data->minuto 45
+data1: 11/01/2023
+data2: 12/01/2023
+dif dias: 1
+data1: 11/01/2023 dia semana: 4
+hora1: 10:30
+data2: 12/01/2023 dia semana: 4
+hora2: 10:30
+dif: 0.00
+data1: 12/01/2023 dia semana: 4
+hora1: 10:30
+data2: 12/01/2023 dia semana: 4
+hora2: 11:45
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  12/01/2023
+ProcessaDiaMesAno: data->dia 12 data->mes 1 data->ano 2023
+ProcessaHorario: str  03:15
+ProcessaHorario: data->hora 3
+ProcessaHorario: data->minuto 15
+ProcessaDiaMesAno: str  13/01/2023
+ProcessaDiaMesAno: data->dia 13 data->mes 1 data->ano 2023
+ProcessaHorario: str  04:30
+ProcessaHorario: data->hora 4
+ProcessaHorario: data->minuto 30
+data1: 12/01/2023
+data2: 13/01/2023
+dif dias: 1
+data1: 12/01/2023 dia semana: 5
+hora1: 03:15
+data2: 13/01/2023 dia semana: 5
+hora2: 03:15
+dif: 0.00
+data1: 13/01/2023 dia semana: 5
+hora1: 03:15
+data2: 13/01/2023 dia semana: 5
+hora2: 04:30
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  13/01/2023
+ProcessaDiaMesAno: data->dia 13 data->mes 1 data->ano 2023
+ProcessaHorario: str  01:00
+ProcessaHorario: data->hora 1
+ProcessaHorario: data->minuto 0
+ProcessaDiaMesAno: str  14/01/2023
+ProcessaDiaMesAno: data->dia 14 data->mes 1 data->ano 2023
+ProcessaHorario: str  02:15
+ProcessaHorario: data->hora 2
+ProcessaHorario: data->minuto 15
+data1: 13/01/2023
+data2: 14/01/2023
+dif dias: 1
+data1: 13/01/2023 dia semana: 6
+hora1: 01:00
+data2: 14/01/2023 dia semana: 6
+hora2: 01:00
+dif: 0.00
+data1: 14/01/2023 dia semana: 6
+hora1: 01:00
+data2: 14/01/2023 dia semana: 6
+hora2: 02:15
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  14/01/2023
+ProcessaDiaMesAno: data->dia 14 data->mes 1 data->ano 2023
+ProcessaHorario: str  09:45
+ProcessaHorario: data->hora 9
+ProcessaHorario: data->minuto 45
+ProcessaDiaMesAno: str  15/01/2023
+ProcessaDiaMesAno: data->dia 15 data->mes 1 data->ano 2023
+ProcessaHorario: str  11:00
+ProcessaHorario: data->hora 11
+ProcessaHorario: data->minuto 0
+data1: 14/01/2023
+data2: 15/01/2023
+dif dias: 1
+data1: 14/01/2023 dia semana: 0
+hora1: 09:45
+data2: 15/01/2023 dia semana: 0
+hora2: 09:45
+dif: 0.00
+data1: 15/01/2023 dia semana: 0
+hora1: 09:45
+data2: 15/01/2023 dia semana: 0
+hora2: 11:00
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  15/01/2023
+ProcessaDiaMesAno: data->dia 15 data->mes 1 data->ano 2023
+ProcessaHorario: str  12:00
+ProcessaHorario: data->hora 12
+ProcessaHorario: data->minuto 0
+ProcessaDiaMesAno: str  16/01/2023
+ProcessaDiaMesAno: data->dia 16 data->mes 1 data->ano 2023
+ProcessaHorario: str  01:15
+ProcessaHorario: data->hora 1
+ProcessaHorario: data->minuto 15
+data1: 15/01/2023
+data2: 16/01/2023
+dif dias: 1
+data1: 15/01/2023 dia semana: 1
+hora1: 12:00
+data2: 16/01/2023 dia semana: 1
+hora2: 12:00
+dif: 0.00
+data1: 16/01/2023 dia semana: 1
+hora1: 12:00
+data2: 16/01/2023 dia semana: 1
+hora2: 01:15
+dif: -10.75
+O tiquete processado tem valor: 28.00 reais
+ProcessaDiaMesAno: str  16/01/2023
+ProcessaDiaMesAno: data->dia 16 data->mes 1 data->ano 2023
+ProcessaHorario: str  05:30
+ProcessaHorario: data->hora 5
+ProcessaHorario: data->minuto 30
+ProcessaDiaMesAno: str  17/01/2023
+ProcessaDiaMesAno: data->dia 17 data->mes 1 data->ano 2023
+ProcessaHorario: str  06:45
+ProcessaHorario: data->hora 6
+ProcessaHorario: data->minuto 45
+data1: 16/01/2023
+data2: 17/01/2023
+dif dias: 1
+data1: 16/01/2023 dia semana: 2
+hora1: 05:30
+data2: 17/01/2023 dia semana: 2
+hora2: 05:30
+dif: 0.00
+data1: 17/01/2023 dia semana: 2
+hora1: 05:30
+data2: 17/01/2023 dia semana: 2
+hora2: 06:45
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  17/01/2023
+ProcessaDiaMesAno: data->dia 17 data->mes 1 data->ano 2023
+ProcessaHorario: str  08:15
+ProcessaHorario: data->hora 8
+ProcessaHorario: data->minuto 15
+ProcessaDiaMesAno: str  18/01/2023
+ProcessaDiaMesAno: data->dia 18 data->mes 1 data->ano 2023
+ProcessaHorario: str  09:30
+ProcessaHorario: data->hora 9
+ProcessaHorario: data->minuto 30
+data1: 17/01/2023
+data2: 18/01/2023
+dif dias: 1
+data1: 17/01/2023 dia semana: 3
+hora1: 08:15
+data2: 18/01/2023 dia semana: 3
+hora2: 08:15
+dif: 0.00
+data1: 18/01/2023 dia semana: 3
+hora1: 08:15
+data2: 18/01/2023 dia semana: 3
+hora2: 09:30
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  18/01/2023
+ProcessaDiaMesAno: data->dia 18 data->mes 1 data->ano 2023
+ProcessaHorario: str  01:45
+ProcessaHorario: data->hora 1
+ProcessaHorario: data->minuto 45
+ProcessaDiaMesAno: str  19/01/2023
+ProcessaDiaMesAno: data->dia 19 data->mes 1 data->ano 2023
+ProcessaHorario: str  03:00
+ProcessaHorario: data->hora 3
+ProcessaHorario: data->minuto 0
+data1: 18/01/2023
+data2: 19/01/2023
+dif dias: 1
+data1: 18/01/2023 dia semana: 4
+hora1: 01:45
+data2: 19/01/2023 dia semana: 4
+hora2: 01:45
+dif: 0.00
+data1: 19/01/2023 dia semana: 4
+hora1: 01:45
+data2: 19/01/2023 dia semana: 4
+hora2: 03:00
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  19/01/2023
+ProcessaDiaMesAno: data->dia 19 data->mes 1 data->ano 2023
+ProcessaHorario: str  10:00
+ProcessaHorario: data->hora 10
+ProcessaHorario: data->minuto 0
+ProcessaDiaMesAno: str  20/01/2023
+ProcessaDiaMesAno: data->dia 20 data->mes 1 data->ano 2023
+ProcessaHorario: str  11:15
+ProcessaHorario: data->hora 11
+ProcessaHorario: data->minuto 15
+data1: 19/01/2023
+data2: 20/01/2023
+dif dias: 1
+data1: 19/01/2023 dia semana: 5
+hora1: 10:00
+data2: 20/01/2023 dia semana: 5
+hora2: 10:00
+dif: 0.00
+data1: 20/01/2023 dia semana: 5
+hora1: 10:00
+data2: 20/01/2023 dia semana: 5
+hora2: 11:15
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  20/01/2023
+ProcessaDiaMesAno: data->dia 20 data->mes 1 data->ano 2023
+ProcessaHorario: str  11:30
+ProcessaHorario: data->hora 11
+ProcessaHorario: data->minuto 30
+ProcessaDiaMesAno: str  21/01/2023
+ProcessaDiaMesAno: data->dia 21 data->mes 1 data->ano 2023
+ProcessaHorario: str  12:45
+ProcessaHorario: data->hora 12
+ProcessaHorario: data->minuto 45
+data1: 20/01/2023
+data2: 21/01/2023
+dif dias: 1
+data1: 20/01/2023 dia semana: 6
+hora1: 11:30
+data2: 21/01/2023 dia semana: 6
+hora2: 11:30
+dif: 0.00
+data1: 21/01/2023 dia semana: 6
+hora1: 11:30
+data2: 21/01/2023 dia semana: 6
+hora2: 12:45
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  21/01/2023
+ProcessaDiaMesAno: data->dia 21 data->mes 1 data->ano 2023
+ProcessaHorario: str  06:00
+ProcessaHorario: data->hora 6
+ProcessaHorario: data->minuto 0
+ProcessaDiaMesAno: str  22/01/2023
+ProcessaDiaMesAno: data->dia 22 data->mes 1 data->ano 2023
+ProcessaHorario: str  07:15
+ProcessaHorario: data->hora 7
+ProcessaHorario: data->minuto 15
+data1: 21/01/2023
+data2: 22/01/2023
+dif dias: 1
+data1: 21/01/2023 dia semana: 0
+hora1: 06:00
+data2: 22/01/2023 dia semana: 0
+hora2: 06:00
+dif: 0.00
+data1: 22/01/2023 dia semana: 0
+hora1: 06:00
+data2: 22/01/2023 dia semana: 0
+hora2: 07:15
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  22/01/2023
+ProcessaDiaMesAno: data->dia 22 data->mes 1 data->ano 2023
+ProcessaHorario: str  12:45
+ProcessaHorario: data->hora 12
+ProcessaHorario: data->minuto 45
+ProcessaDiaMesAno: str  23/01/2023
+ProcessaDiaMesAno: data->dia 23 data->mes 1 data->ano 2023
+ProcessaHorario: str  02:00
+ProcessaHorario: data->hora 2
+ProcessaHorario: data->minuto 0
+data1: 22/01/2023
+data2: 23/01/2023
+dif dias: 1
+data1: 22/01/2023 dia semana: 1
+hora1: 12:45
+data2: 23/01/2023 dia semana: 1
+hora2: 12:45
+dif: 0.00
+data1: 23/01/2023 dia semana: 1
+hora1: 12:45
+data2: 23/01/2023 dia semana: 1
+hora2: 02:00
+dif: -10.75
+O tiquete processado tem valor: 28.00 reais
+ProcessaDiaMesAno: str  23/01/2023
+ProcessaDiaMesAno: data->dia 23 data->mes 1 data->ano 2023
+ProcessaHorario: str  09:30
+ProcessaHorario: data->hora 9
+ProcessaHorario: data->minuto 30
+ProcessaDiaMesAno: str  24/01/2023
+ProcessaDiaMesAno: data->dia 24 data->mes 1 data->ano 2023
+ProcessaHorario: str  10:45
+ProcessaHorario: data->hora 10
+ProcessaHorario: data->minuto 45
+data1: 23/01/2023
+data2: 24/01/2023
+dif dias: 1
+data1: 23/01/2023 dia semana: 2
+hora1: 09:30
+data2: 24/01/2023 dia semana: 2
+hora2: 09:30
+dif: 0.00
+data1: 24/01/2023 dia semana: 2
+hora1: 09:30
+data2: 24/01/2023 dia semana: 2
+hora2: 10:45
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  24/01/2023
+ProcessaDiaMesAno: data->dia 24 data->mes 1 data->ano 2023
+ProcessaHorario: str  04:15
+ProcessaHorario: data->hora 4
+ProcessaHorario: data->minuto 15
+ProcessaDiaMesAno: str  25/01/2023
+ProcessaDiaMesAno: data->dia 25 data->mes 1 data->ano 2023
+ProcessaHorario: str  05:30
+ProcessaHorario: data->hora 5
+ProcessaHorario: data->minuto 30
+data1: 24/01/2023
+data2: 25/01/2023
+dif dias: 1
+data1: 24/01/2023 dia semana: 3
+hora1: 04:15
+data2: 25/01/2023 dia semana: 3
+hora2: 04:15
+dif: 0.00
+data1: 25/01/2023 dia semana: 3
+hora1: 04:15
+data2: 25/01/2023 dia semana: 3
+hora2: 05:30
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  25/01/2023
+ProcessaDiaMesAno: data->dia 25 data->mes 1 data->ano 2023
+ProcessaHorario: str  02:00
+ProcessaHorario: data->hora 2
+ProcessaHorario: data->minuto 0
+ProcessaDiaMesAno: str  26/01/2023
+ProcessaDiaMesAno: data->dia 26 data->mes 1 data->ano 2023
+ProcessaHorario: str  03:15
+ProcessaHorario: data->hora 3
+ProcessaHorario: data->minuto 15
+data1: 25/01/2023
+data2: 26/01/2023
+dif dias: 1
+data1: 25/01/2023 dia semana: 4
+hora1: 02:00
+data2: 26/01/2023 dia semana: 4
+hora2: 02:00
+dif: 0.00
+data1: 26/01/2023 dia semana: 4
+hora1: 02:00
+data2: 26/01/2023 dia semana: 4
+hora2: 03:15
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  26/01/2023
+ProcessaDiaMesAno: data->dia 26 data->mes 1 data->ano 2023
+ProcessaHorario: str  07:30
+ProcessaHorario: data->hora 7
+ProcessaHorario: data->minuto 30
+ProcessaDiaMesAno: str  27/01/2023
+ProcessaDiaMesAno: data->dia 27 data->mes 1 data->ano 2023
+ProcessaHorario: str  08:45
+ProcessaHorario: data->hora 8
+ProcessaHorario: data->minuto 45
+data1: 26/01/2023
+data2: 27/01/2023
+dif dias: 1
+data1: 26/01/2023 dia semana: 5
+hora1: 07:30
+data2: 27/01/2023 dia semana: 5
+hora2: 07:30
+dif: 0.00
+data1: 27/01/2023 dia semana: 5
+hora1: 07:30
+data2: 27/01/2023 dia semana: 5
+hora2: 08:45
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  27/01/2023
+ProcessaDiaMesAno: data->dia 27 data->mes 1 data->ano 2023
+ProcessaHorario: str  08:45
+ProcessaHorario: data->hora 8
+ProcessaHorario: data->minuto 45
+ProcessaDiaMesAno: str  28/01/2023
+ProcessaDiaMesAno: data->dia 28 data->mes 1 data->ano 2023
+ProcessaHorario: str  10:00
+ProcessaHorario: data->hora 10
+ProcessaHorario: data->minuto 0
+data1: 27/01/2023
+data2: 28/01/2023
+dif dias: 1
+data1: 27/01/2023 dia semana: 6
+hora1: 08:45
+data2: 28/01/2023 dia semana: 6
+hora2: 08:45
+dif: 0.00
+data1: 28/01/2023 dia semana: 6
+hora1: 08:45
+data2: 28/01/2023 dia semana: 6
+hora2: 10:00
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  28/01/2023
+ProcessaDiaMesAno: data->dia 28 data->mes 1 data->ano 2023
+ProcessaHorario: str  02:15
+ProcessaHorario: data->hora 2
+ProcessaHorario: data->minuto 15
+ProcessaDiaMesAno: str  29/01/2023
+ProcessaDiaMesAno: data->dia 29 data->mes 1 data->ano 2023
+ProcessaHorario: str  03:30
+ProcessaHorario: data->hora 3
+ProcessaHorario: data->minuto 30
+data1: 28/01/2023
+data2: 29/01/2023
+dif dias: 1
+data1: 28/01/2023 dia semana: 0
+hora1: 02:15
+data2: 29/01/2023 dia semana: 0
+hora2: 02:15
+dif: 0.00
+data1: 29/01/2023 dia semana: 0
+hora1: 02:15
+data2: 29/01/2023 dia semana: 0
+hora2: 03:30
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  29/01/2023
+ProcessaDiaMesAno: data->dia 29 data->mes 1 data->ano 2023
+ProcessaHorario: str  11:00
+ProcessaHorario: data->hora 11
+ProcessaHorario: data->minuto 0
+ProcessaDiaMesAno: str  30/01/2023
+ProcessaDiaMesAno: data->dia 30 data->mes 1 data->ano 2023
+ProcessaHorario: str  12:15
+ProcessaHorario: data->hora 12
+ProcessaHorario: data->minuto 15
+data1: 29/01/2023
+data2: 30/01/2023
+dif dias: 1
+data1: 29/01/2023 dia semana: 1
+hora1: 11:00
+data2: 30/01/2023 dia semana: 1
+hora2: 11:00
+dif: 0.00
+data1: 30/01/2023 dia semana: 1
+hora1: 11:00
+data2: 30/01/2023 dia semana: 1
+hora2: 12:15
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  30/01/2023
+ProcessaDiaMesAno: data->dia 30 data->mes 1 data->ano 2023
+ProcessaHorario: str  06:30
+ProcessaHorario: data->hora 6
+ProcessaHorario: data->minuto 30
+ProcessaDiaMesAno: str  31/01/2023
+ProcessaDiaMesAno: data->dia 31 data->mes 1 data->ano 2023
+ProcessaHorario: str  07:45
+ProcessaHorario: data->hora 7
+ProcessaHorario: data->minuto 45
+data1: 30/01/2023
+data2: 31/01/2023
+dif dias: 1
+data1: 30/01/2023 dia semana: 2
+hora1: 06:30
+data2: 31/01/2023 dia semana: 2
+hora2: 06:30
+dif: 0.00
+data1: 31/01/2023 dia semana: 2
+hora1: 06:30
+data2: 31/01/2023 dia semana: 2
+hora2: 07:45
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  31/01/2023
+ProcessaDiaMesAno: data->dia 31 data->mes 1 data->ano 2023
+ProcessaHorario: str  01:30
+ProcessaHorario: data->hora 1
+ProcessaHorario: data->minuto 30
+ProcessaDiaMesAno: str  01/02/2023
+ProcessaDiaMesAno: data->dia 1 data->mes 2 data->ano 2023
+ProcessaHorario: str  02:45
+ProcessaHorario: data->hora 2
+ProcessaHorario: data->minuto 45
+data1: 31/01/2023
+data2: 01/02/2023
+dif dias: 1
+data1: 31/01/2023 dia semana: 3
+hora1: 01:30
+data2: 01/02/2023 dia semana: 3
+hora2: 01:30
+dif: 0.00
+data1: 01/02/2023 dia semana: 3
+hora1: 01:30
+data2: 01/02/2023 dia semana: 3
+hora2: 02:45
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  01/02/2023
+ProcessaDiaMesAno: data->dia 1 data->mes 2 data->ano 2023
+ProcessaHorario: str  10:30
+ProcessaHorario: data->hora 10
+ProcessaHorario: data->minuto 30
+ProcessaDiaMesAno: str  02/02/2023
+ProcessaDiaMesAno: data->dia 2 data->mes 2 data->ano 2023
+ProcessaHorario: str  11:45
+ProcessaHorario: data->hora 11
+ProcessaHorario: data->minuto 45
+data1: 01/02/2023
+data2: 02/02/2023
+dif dias: 1
+data1: 01/02/2023 dia semana: 4
+hora1: 10:30
+data2: 02/02/2023 dia semana: 4
+hora2: 10:30
+dif: 0.00
+data1: 02/02/2023 dia semana: 4
+hora1: 10:30
+data2: 02/02/2023 dia semana: 4
+hora2: 11:45
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  02/02/2023
+ProcessaDiaMesAno: data->dia 2 data->mes 2 data->ano 2023
+ProcessaHorario: str  03:45
+ProcessaHorario: data->hora 3
+ProcessaHorario: data->minuto 45
+ProcessaDiaMesAno: str  03/02/2023
+ProcessaDiaMesAno: data->dia 3 data->mes 2 data->ano 2023
+ProcessaHorario: str  05:00
+ProcessaHorario: data->hora 5
+ProcessaHorario: data->minuto 0
+data1: 02/02/2023
+data2: 03/02/2023
+dif dias: 1
+data1: 02/02/2023 dia semana: 5
+hora1: 03:45
+data2: 03/02/2023 dia semana: 5
+hora2: 03:45
+dif: 0.00
+data1: 03/02/2023 dia semana: 5
+hora1: 03:45
+data2: 03/02/2023 dia semana: 5
+hora2: 05:00
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  03/02/2023
+ProcessaDiaMesAno: data->dia 3 data->mes 2 data->ano 2023
+ProcessaHorario: str  09:15
+ProcessaHorario: data->hora 9
+ProcessaHorario: data->minuto 15
+ProcessaDiaMesAno: str  04/02/2023
+ProcessaDiaMesAno: data->dia 4 data->mes 2 data->ano 2023
+ProcessaHorario: str  10:30
+ProcessaHorario: data->hora 10
+ProcessaHorario: data->minuto 30
+data1: 03/02/2023
+data2: 04/02/2023
+dif dias: 1
+data1: 03/02/2023 dia semana: 6
+hora1: 09:15
+data2: 04/02/2023 dia semana: 6
+hora2: 09:15
+dif: 0.00
+data1: 04/02/2023 dia semana: 6
+hora1: 09:15
+data2: 04/02/2023 dia semana: 6
+hora2: 10:30
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  04/02/2023
+ProcessaDiaMesAno: data->dia 4 data->mes 2 data->ano 2023
+ProcessaHorario: str  04:30
+ProcessaHorario: data->hora 4
+ProcessaHorario: data->minuto 30
+ProcessaDiaMesAno: str  05/02/2023
+ProcessaDiaMesAno: data->dia 5 data->mes 2 data->ano 2023
+ProcessaHorario: str  05:45
+ProcessaHorario: data->hora 5
+ProcessaHorario: data->minuto 45
+data1: 04/02/2023
+data2: 05/02/2023
+dif dias: 1
+data1: 04/02/2023 dia semana: 0
+hora1: 04:30
+data2: 05/02/2023 dia semana: 0
+hora2: 04:30
+dif: 0.00
+data1: 05/02/2023 dia semana: 0
+hora1: 04:30
+data2: 05/02/2023 dia semana: 0
+hora2: 05:45
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  05/02/2023
+ProcessaDiaMesAno: data->dia 5 data->mes 2 data->ano 2023
+ProcessaHorario: str  11:30
+ProcessaHorario: data->hora 11
+ProcessaHorario: data->minuto 30
+ProcessaDiaMesAno: str  06/02/2023
+ProcessaDiaMesAno: data->dia 6 data->mes 2 data->ano 2023
+ProcessaHorario: str  12:45
+ProcessaHorario: data->hora 12
+ProcessaHorario: data->minuto 45
+data1: 05/02/2023
+data2: 06/02/2023
+dif dias: 1
+data1: 05/02/2023 dia semana: 1
+hora1: 11:30
+data2: 06/02/2023 dia semana: 1
+hora2: 11:30
+dif: 0.00
+data1: 06/02/2023 dia semana: 1
+hora1: 11:30
+data2: 06/02/2023 dia semana: 1
+hora2: 12:45
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  06/02/2023
+ProcessaDiaMesAno: data->dia 6 data->mes 2 data->ano 2023
+ProcessaHorario: str  06:45
+ProcessaHorario: data->hora 6
+ProcessaHorario: data->minuto 45
+ProcessaDiaMesAno: str  07/02/2023
+ProcessaDiaMesAno: data->dia 7 data->mes 2 data->ano 2023
+ProcessaHorario: str  08:00
+ProcessaHorario: data->hora 8
+ProcessaHorario: data->minuto 0
+data1: 06/02/2023
+data2: 07/02/2023
+dif dias: 1
+data1: 06/02/2023 dia semana: 2
+hora1: 06:45
+data2: 07/02/2023 dia semana: 2
+hora2: 06:45
+dif: 0.00
+data1: 07/02/2023 dia semana: 2
+hora1: 06:45
+data2: 07/02/2023 dia semana: 2
+hora2: 08:00
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  07/02/2023
+ProcessaDiaMesAno: data->dia 7 data->mes 2 data->ano 2023
+ProcessaHorario: str  12:45
+ProcessaHorario: data->hora 12
+ProcessaHorario: data->minuto 45
+ProcessaDiaMesAno: str  08/02/2023
+ProcessaDiaMesAno: data->dia 8 data->mes 2 data->ano 2023
+ProcessaHorario: str  02:00
+ProcessaHorario: data->hora 2
+ProcessaHorario: data->minuto 0
+data1: 07/02/2023
+data2: 08/02/2023
+dif dias: 1
+data1: 07/02/2023 dia semana: 3
+hora1: 12:45
+data2: 08/02/2023 dia semana: 3
+hora2: 12:45
+dif: 0.00
+data1: 08/02/2023 dia semana: 3
+hora1: 12:45
+data2: 08/02/2023 dia semana: 3
+hora2: 02:00
+dif: -10.75
+O tiquete processado tem valor: 28.00 reais
+ProcessaDiaMesAno: str  08/02/2023
+ProcessaDiaMesAno: data->dia 8 data->mes 2 data->ano 2023
+ProcessaHorario: str  09:00
+ProcessaHorario: data->hora 9
+ProcessaHorario: data->minuto 0
+ProcessaDiaMesAno: str  09/02/2023
+ProcessaDiaMesAno: data->dia 9 data->mes 2 data->ano 2023
+ProcessaHorario: str  10:15
+ProcessaHorario: data->hora 10
+ProcessaHorario: data->minuto 15
+data1: 08/02/2023
+data2: 09/02/2023
+dif dias: 1
+data1: 08/02/2023 dia semana: 4
+hora1: 09:00
+data2: 09/02/2023 dia semana: 4
+hora2: 09:00
+dif: 0.00
+data1: 09/02/2023 dia semana: 4
+hora1: 09:00
+data2: 09/02/2023 dia semana: 4
+hora2: 10:15
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  09/02/2023
+ProcessaDiaMesAno: data->dia 9 data->mes 2 data->ano 2023
+ProcessaHorario: str  02:30
+ProcessaHorario: data->hora 2
+ProcessaHorario: data->minuto 30
+ProcessaDiaMesAno: str  10/02/2023
+ProcessaDiaMesAno: data->dia 10 data->mes 2 data->ano 2023
+ProcessaHorario: str  03:45
+ProcessaHorario: data->hora 3
+ProcessaHorario: data->minuto 45
+data1: 09/02/2023
+data2: 10/02/2023
+dif dias: 1
+data1: 09/02/2023 dia semana: 5
+hora1: 02:30
+data2: 10/02/2023 dia semana: 5
+hora2: 02:30
+dif: 0.00
+data1: 10/02/2023 dia semana: 5
+hora1: 02:30
+data2: 10/02/2023 dia semana: 5
+hora2: 03:45
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  10/02/2023
+ProcessaDiaMesAno: data->dia 10 data->mes 2 data->ano 2023
+ProcessaHorario: str  08:00
+ProcessaHorario: data->hora 8
+ProcessaHorario: data->minuto 0
+ProcessaDiaMesAno: str  11/02/2023
+ProcessaDiaMesAno: data->dia 11 data->mes 2 data->ano 2023
+ProcessaHorario: str  09:15
+ProcessaHorario: data->hora 9
+ProcessaHorario: data->minuto 15
+data1: 10/02/2023
+data2: 11/02/2023
+dif dias: 1
+data1: 10/02/2023 dia semana: 6
+hora1: 08:00
+data2: 11/02/2023 dia semana: 6
+hora2: 08:00
+dif: 0.00
+data1: 11/02/2023 dia semana: 6
+hora1: 08:00
+data2: 11/02/2023 dia semana: 6
+hora2: 09:15
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  11/02/2023
+ProcessaDiaMesAno: data->dia 11 data->mes 2 data->ano 2023
+ProcessaHorario: str  05:00
+ProcessaHorario: data->hora 5
+ProcessaHorario: data->minuto 0
+ProcessaDiaMesAno: str  12/02/2023
+ProcessaDiaMesAno: data->dia 12 data->mes 2 data->ano 2023
+ProcessaHorario: str  06:15
+ProcessaHorario: data->hora 6
+ProcessaHorario: data->minuto 15
+data1: 11/02/2023
+data2: 12/02/2023
+dif dias: 1
+data1: 11/02/2023 dia semana: 0
+hora1: 05:00
+data2: 12/02/2023 dia semana: 0
+hora2: 05:00
+dif: 0.00
+data1: 12/02/2023 dia semana: 0
+hora1: 05:00
+data2: 12/02/2023 dia semana: 0
+hora2: 06:15
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  12/02/2023
+ProcessaDiaMesAno: data->dia 12 data->mes 2 data->ano 2023
+ProcessaHorario: str  10:00
+ProcessaHorario: data->hora 10
+ProcessaHorario: data->minuto 0
+ProcessaDiaMesAno: str  13/02/2023
+ProcessaDiaMesAno: data->dia 13 data->mes 2 data->ano 2023
+ProcessaHorario: str  11:15
+ProcessaHorario: data->hora 11
+ProcessaHorario: data->minuto 15
+data1: 12/02/2023
+data2: 13/02/2023
+dif dias: 1
+data1: 12/02/2023 dia semana: 1
+hora1: 10:00
+data2: 13/02/2023 dia semana: 1
+hora2: 10:00
+dif: 0.00
+data1: 13/02/2023 dia semana: 1
+hora1: 10:00
+data2: 13/02/2023 dia semana: 1
+hora2: 11:15
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  13/02/2023
+ProcessaDiaMesAno: data->dia 13 data->mes 2 data->ano 2023
+ProcessaHorario: str  03:00
+ProcessaHorario: data->hora 3
+ProcessaHorario: data->minuto 0
+ProcessaDiaMesAno: str  14/02/2023
+ProcessaDiaMesAno: data->dia 14 data->mes 2 data->ano 2023
+ProcessaHorario: str  04:15
+ProcessaHorario: data->hora 4
+ProcessaHorario: data->minuto 15
+data1: 13/02/2023
+data2: 14/02/2023
+dif dias: 1
+data1: 13/02/2023 dia semana: 2
+hora1: 03:00
+data2: 14/02/2023 dia semana: 2
+hora2: 03:00
+dif: 0.00
+data1: 14/02/2023 dia semana: 2
+hora1: 03:00
+data2: 14/02/2023 dia semana: 2
+hora2: 04:15
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  14/02/2023
+ProcessaDiaMesAno: data->dia 14 data->mes 2 data->ano 2023
+ProcessaHorario: str  07:30
+ProcessaHorario: data->hora 7
+ProcessaHorario: data->minuto 30
+ProcessaDiaMesAno: str  15/02/2023
+ProcessaDiaMesAno: data->dia 15 data->mes 2 data->ano 2023
+ProcessaHorario: str  08:45
+ProcessaHorario: data->hora 8
+ProcessaHorario: data->minuto 45
+data1: 14/02/2023
+data2: 15/02/2023
+dif dias: 1
+data1: 14/02/2023 dia semana: 3
+hora1: 07:30
+data2: 15/02/2023 dia semana: 3
+hora2: 07:30
+dif: 0.00
+data1: 15/02/2023 dia semana: 3
+hora1: 07:30
+data2: 15/02/2023 dia semana: 3
+hora2: 08:45
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  15/02/2023
+ProcessaDiaMesAno: data->dia 15 data->mes 2 data->ano 2023
+ProcessaHorario: str  01:15
+ProcessaHorario: data->hora 1
+ProcessaHorario: data->minuto 15
+ProcessaDiaMesAno: str  16/02/2023
+ProcessaDiaMesAno: data->dia 16 data->mes 2 data->ano 2023
+ProcessaHorario: str  02:30
+ProcessaHorario: data->hora 2
+ProcessaHorario: data->minuto 30
+data1: 15/02/2023
+data2: 16/02/2023
+dif dias: 1
+data1: 15/02/2023 dia semana: 4
+hora1: 01:15
+data2: 16/02/2023 dia semana: 4
+hora2: 01:15
+dif: 0.00
+data1: 16/02/2023 dia semana: 4
+hora1: 01:15
+data2: 16/02/2023 dia semana: 4
+hora2: 02:30
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  16/02/2023
+ProcessaDiaMesAno: data->dia 16 data->mes 2 data->ano 2023
+ProcessaHorario: str  12:15
+ProcessaHorario: data->hora 12
+ProcessaHorario: data->minuto 15
+ProcessaDiaMesAno: str  17/02/2023
+ProcessaDiaMesAno: data->dia 17 data->mes 2 data->ano 2023
+ProcessaHorario: str  01:30
+ProcessaHorario: data->hora 1
+ProcessaHorario: data->minuto 30
+data1: 16/02/2023
+data2: 17/02/2023
+dif dias: 1
+data1: 16/02/2023 dia semana: 5
+hora1: 12:15
+data2: 17/02/2023 dia semana: 5
+hora2: 12:15
+dif: 0.00
+data1: 17/02/2023 dia semana: 5
+hora1: 12:15
+data2: 17/02/2023 dia semana: 5
+hora2: 01:30
+dif: -10.75
+O tiquete processado tem valor: 28.00 reais
+ProcessaDiaMesAno: str  17/02/2023
+ProcessaDiaMesAno: data->dia 17 data->mes 2 data->ano 2023
+ProcessaHorario: str  04:45
+ProcessaHorario: data->hora 4
+ProcessaHorario: data->minuto 45
+ProcessaDiaMesAno: str  18/02/2023
+ProcessaDiaMesAno: data->dia 18 data->mes 2 data->ano 2023
+ProcessaHorario: str  06:00
+ProcessaHorario: data->hora 6
+ProcessaHorario: data->minuto 0
+data1: 17/02/2023
+data2: 18/02/2023
+dif dias: 1
+data1: 17/02/2023 dia semana: 6
+hora1: 04:45
+data2: 18/02/2023 dia semana: 6
+hora2: 04:45
+dif: 0.00
+data1: 18/02/2023 dia semana: 6
+hora1: 04:45
+data2: 18/02/2023 dia semana: 6
+hora2: 06:00
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  18/02/2023
+ProcessaDiaMesAno: data->dia 18 data->mes 2 data->ano 2023
+ProcessaHorario: str  11:45
+ProcessaHorario: data->hora 11
+ProcessaHorario: data->minuto 45
+ProcessaDiaMesAno: str  19/02/2023
+ProcessaDiaMesAno: data->dia 19 data->mes 2 data->ano 2023
+ProcessaHorario: str  01:00
+ProcessaHorario: data->hora 1
+ProcessaHorario: data->minuto 0
+data1: 18/02/2023
+data2: 19/02/2023
+dif dias: 1
+data1: 18/02/2023 dia semana: 0
+hora1: 11:45
+data2: 19/02/2023 dia semana: 0
+hora2: 11:45
+dif: 0.00
+data1: 19/02/2023 dia semana: 0
+hora1: 11:45
+data2: 19/02/2023 dia semana: 0
+hora2: 01:00
+dif: -10.75
+O tiquete processado tem valor: 28.00 reais
+ProcessaDiaMesAno: str  19/02/2023
+ProcessaDiaMesAno: data->dia 19 data->mes 2 data->ano 2023
+ProcessaHorario: str  09:30
+ProcessaHorario: data->hora 9
+ProcessaHorario: data->minuto 30
+ProcessaDiaMesAno: str  20/02/2023
+ProcessaDiaMesAno: data->dia 20 data->mes 2 data->ano 2023
+ProcessaHorario: str  10:45
+ProcessaHorario: data->hora 10
+ProcessaHorario: data->minuto 45
+data1: 19/02/2023
+data2: 20/02/2023
+dif dias: 1
+data1: 19/02/2023 dia semana: 1
+hora1: 09:30
+data2: 20/02/2023 dia semana: 1
+hora2: 09:30
+dif: 0.00
+data1: 20/02/2023 dia semana: 1
+hora1: 09:30
+data2: 20/02/2023 dia semana: 1
+hora2: 10:45
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  01/03/2023
+ProcessaDiaMesAno: data->dia 1 data->mes 3 data->ano 2023
+ProcessaHorario: str  10:00
+ProcessaHorario: data->hora 10
+ProcessaHorario: data->minuto 0
+ProcessaDiaMesAno: str  02/03/2023
+ProcessaDiaMesAno: data->dia 2 data->mes 3 data->ano 2023
+ProcessaHorario: str  11:15
+ProcessaHorario: data->hora 11
+ProcessaHorario: data->minuto 15
+data1: 01/03/2023
+data2: 02/03/2023
+dif dias: 1
+data1: 01/03/2023 dia semana: 2
+hora1: 10:00
+data2: 02/03/2023 dia semana: 2
+hora2: 10:00
+dif: 0.00
+data1: 02/03/2023 dia semana: 2
+hora1: 10:00
+data2: 02/03/2023 dia semana: 2
+hora2: 11:15
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  15/04/2023
+ProcessaDiaMesAno: data->dia 15 data->mes 4 data->ano 2023
+ProcessaHorario: str  02:30
+ProcessaHorario: data->hora 2
+ProcessaHorario: data->minuto 30
+ProcessaDiaMesAno: str  16/04/2023
+ProcessaDiaMesAno: data->dia 16 data->mes 4 data->ano 2023
+ProcessaHorario: str  03:45
+ProcessaHorario: data->hora 3
+ProcessaHorario: data->minuto 45
+data1: 15/04/2023
+data2: 16/04/2023
+dif dias: 1
+data1: 15/04/2023 dia semana: 3
+hora1: 02:30
+data2: 16/04/2023 dia semana: 3
+hora2: 02:30
+dif: 0.00
+data1: 16/04/2023 dia semana: 3
+hora1: 02:30
+data2: 16/04/2023 dia semana: 3
+hora2: 03:45
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  30/05/2023
+ProcessaDiaMesAno: data->dia 30 data->mes 5 data->ano 2023
+ProcessaHorario: str  04:45
+ProcessaHorario: data->hora 4
+ProcessaHorario: data->minuto 45
+ProcessaDiaMesAno: str  31/05/2023
+ProcessaDiaMesAno: data->dia 31 data->mes 5 data->ano 2023
+ProcessaHorario: str  06:00
+ProcessaHorario: data->hora 6
+ProcessaHorario: data->minuto 0
+data1: 30/05/2023
+data2: 31/05/2023
+dif dias: 1
+data1: 30/05/2023 dia semana: 4
+hora1: 04:45
+data2: 31/05/2023 dia semana: 4
+hora2: 04:45
+dif: 0.00
+data1: 31/05/2023 dia semana: 4
+hora1: 04:45
+data2: 31/05/2023 dia semana: 4
+hora2: 06:00
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  15/07/2023
+ProcessaDiaMesAno: data->dia 15 data->mes 7 data->ano 2023
+ProcessaHorario: str  09:15
+ProcessaHorario: data->hora 9
+ProcessaHorario: data->minuto 15
+ProcessaDiaMesAno: str  16/07/2023
+ProcessaDiaMesAno: data->dia 16 data->mes 7 data->ano 2023
+ProcessaHorario: str  10:30
+ProcessaHorario: data->hora 10
+ProcessaHorario: data->minuto 30
+data1: 15/07/2023
+data2: 16/07/2023
+dif dias: 1
+data1: 15/07/2023 dia semana: 5
+hora1: 09:15
+data2: 16/07/2023 dia semana: 5
+hora2: 09:15
+dif: 0.00
+data1: 16/07/2023 dia semana: 5
+hora1: 09:15
+data2: 16/07/2023 dia semana: 5
+hora2: 10:30
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  31/08/2023
+ProcessaDiaMesAno: data->dia 31 data->mes 8 data->ano 2023
+ProcessaHorario: str  11:30
+ProcessaHorario: data->hora 11
+ProcessaHorario: data->minuto 30
+ProcessaDiaMesAno: str  01/09/2023
+ProcessaDiaMesAno: data->dia 1 data->mes 9 data->ano 2023
+ProcessaHorario: str  12:45
+ProcessaHorario: data->hora 12
+ProcessaHorario: data->minuto 45
+data1: 31/08/2023
+data2: 01/09/2023
+dif dias: 1
+data1: 31/08/2023 dia semana: 6
+hora1: 11:30
+data2: 01/09/2023 dia semana: 6
+hora2: 11:30
+dif: 0.00
+data1: 01/09/2023 dia semana: 6
+hora1: 11:30
+data2: 01/09/2023 dia semana: 6
+hora2: 12:45
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+ProcessaDiaMesAno: str  15/10/2023
+ProcessaDiaMesAno: data->dia 15 data->mes 10 data->ano 2023
+ProcessaHorario: str  06:00
+ProcessaHorario: data->hora 6
+ProcessaHorario: data->minuto 0
+ProcessaDiaMesAno: str  16/10/2023
+ProcessaDiaMesAno: data->dia 16 data->mes 10 data->ano 2023
+ProcessaHorario: str  07:15
+ProcessaHorario: data->hora 7
+ProcessaHorario: data->minuto 15
+data1: 15/10/2023
+data2: 16/10/2023
+dif dias: 1
+data1: 15/10/2023 dia semana: 0
+hora1: 06:00
+data2: 16/10/2023 dia semana: 0
+hora2: 06:00
+dif: 0.00
+data1: 16/10/2023 dia semana: 0
+hora1: 06:00
+data2: 16/10/2023 dia semana: 0
+hora2: 07:15
+dif: 1.25
+O tiquete processado tem valor: 52.00 reais
+O sistema faturou: 2792.00 reais

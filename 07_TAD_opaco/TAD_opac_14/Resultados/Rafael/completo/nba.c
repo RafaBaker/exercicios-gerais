@@ -30,14 +30,14 @@ tNBA CriaNBA()
     nba->maxfranquias = MAX_FR;
     nba->maxpartidas = MAX_PT;
 
-    nba->listafranquias = (tFranquia*)malloc(sizeof(tFranquia)*MAX_FR);
+    nba->listafranquias = (tFranquia*)malloc(sizeof(tFranquia)*MAX_FR*2);
     assert(nba->listafranquias && "Erro ao alocar vetor de franquias");
     for (int i = 0; i < nba->maxfranquias; i++)
     {
         nba->listafranquias[i] = NULL;
     }
 
-    nba->listapartidas = (tPartida*)malloc(sizeof(tPartida)*MAX_PT);
+    nba->listapartidas = (tPartida*)malloc(sizeof(tPartida)*MAX_PT*2);
     assert(nba->listapartidas && "Erro ao alocar vetor de partidas");
     for (int i = 0; i < nba->maxpartidas; i++)
     {

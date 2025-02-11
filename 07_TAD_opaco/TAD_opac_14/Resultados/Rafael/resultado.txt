@@ -1,6 +1,6 @@
 Arquivos Esperados Corretos: 7 de 7
 Pastas Compiladas Corretamente: 5 de 5 
-Pastas Linkadas Corretamente: 1 de 5
+Pastas Linkadas Corretamente: 3 de 5
 Teste main
   - Resultados corretos: 0 de 10
   - Valgrinds corretos: 0 de 10
@@ -11,15 +11,15 @@ Teste completo
 Nota de Rafael para o teste completo: 0
 Teste nba
   - Resultados corretos: 0 de 10
-  - Valgrinds corretos: 8 de 10
+  - Valgrinds corretos: 10 de 10
 Nota de Rafael para o teste nba: 0
 Teste franquia
-  - Resultados corretos: 0 de 10
-  - Valgrinds corretos: 0 de 10
-Nota de Rafael para o teste franquia: 0
+  - Resultados corretos: 10 de 10
+  - Valgrinds corretos: 10 de 10
+Nota de Rafael para o teste franquia: 2.00
 Teste partida
-  - Resultados corretos: 0 de 10
-  - Valgrinds corretos: 0 de 10
-Nota de Rafael para o teste partida: 0
-Nota de Rafael: 0+(0)+(0)+(0)+(0)+(0)
-Nota de Rafael: 0
+  - Resultados corretos: 10 de 10
+  - Valgrinds corretos: 10 de 10
+Nota de Rafael para o teste partida: 2.00
+Nota de Rafael: 0+(2.00)+(0)+(2.00)+(0)+(0)
+Nota de Rafael: 4.00
