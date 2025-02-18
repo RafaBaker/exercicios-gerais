@@ -1,0 +1,7 @@
+tad_gen_01
+Digite o tipo e numero de elementos: 
+gen.data: 1
+gen.data: 2
+gen.data: 3
+gen.data: 4
+gen.data: 5

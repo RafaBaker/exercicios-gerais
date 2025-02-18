@@ -1,15 +1,15 @@
-==1290== Memcheck, a memory error detector
-==1290== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==1290== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==1290== Command: Resultados/Rafael/operacao/prog Resultados/Rafael/operacao/Casos/4
-==1290== Parent PID: 1289
-==1290== 
-==1290== 
-==1290== HEAP SUMMARY:
-==1290==     in use at exit: 0 bytes in 0 blocks
-==1290==   total heap usage: 60 allocs, 60 frees, 9,496 bytes allocated
-==1290== 
-==1290== All heap blocks were freed -- no leaks are possible
-==1290== 
-==1290== For lists of detected and suppressed errors, rerun with: -s
-==1290== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==19643== Memcheck, a memory error detector
+==19643== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19643== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==19643== Command: Resultados/Rafael/operacao/prog Resultados/Rafael/operacao/Casos/4
+==19643== Parent PID: 19642
+==19643== 
+==19643== 
+==19643== HEAP SUMMARY:
+==19643==     in use at exit: 0 bytes in 0 blocks
+==19643==   total heap usage: 60 allocs, 60 frees, 9,496 bytes allocated
+==19643== 
+==19643== All heap blocks were freed -- no leaks are possible
+==19643== 
+==19643== For lists of detected and suppressed errors, rerun with: -s
+==19643== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

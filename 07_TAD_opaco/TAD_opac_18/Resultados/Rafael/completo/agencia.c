@@ -78,7 +78,7 @@ void LeOperacoes(tAgencia *agencia)
     int qtd, id = 0, i = 0, flag = 0;
     float valor = 0;
     scanf("%d", &qtd);
-
+    //agencia->contas = malloc(sizeof(tConta*)*qtd-1);
     // Registrando as contas
     while (1)
     {

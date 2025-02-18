@@ -1,0 +1,7 @@
+jogador.c: In function ‘VenceuJogador’:
+jogador.c:128:41: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  128 |     for (i = 0, j = 0; i < TAM_TABULEIRO, j < TAM_TABULEIRO; i++, j++)
+      |                                         ^
+jogador.c:137:30: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  137 |     for (i = 2, j = 0; i >= 0, j < TAM_TABULEIRO; i--, j++)
+      |                              ^
