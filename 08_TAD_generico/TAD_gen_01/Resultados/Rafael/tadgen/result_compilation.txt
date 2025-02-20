@@ -1,11 +1,4 @@
 tadgen.c: In function ‘LeGenerico’:
-tadgen.c:86:21: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘int *’ [-Wformat=]
-   86 |             scanf("%f", &((int*)gen->data)[i]);
-      |                    ~^   ~~~~~~~~~~~~~~~~~~~~~
-      |                     |   |
-      |                     |   int *
-      |                     float *
-      |                    %d
 tadgen.c:72:10: warning: unused variable ‘buffer’ [-Wunused-variable]
    72 |     char buffer[60];
       |          ^~~~~~

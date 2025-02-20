@@ -73,18 +73,18 @@ void LeGenerico(tGeneric *gen)
     char c;
     scanf("%c", &c);
     // printf("gen.qtd: %d:\n", gen->qtd);
-    printf("\n");
+    printf("\nDigite o vetor:");
     for (int i = 0; i < gen->qtd; i++)
     {
         switch (gen->tipo)
         {
         case INT:
             scanf("%d", &((int*)gen->data)[i]);
-            printf("gen.data: %d\n", ((int*)gen->data)[i]);
+            //printf("gen.data: %d\n", ((int*)gen->data)[i]);
             break;
         case FLOAT:
-            scanf("%f", &((int*)gen->data)[i]);
-            printf("gen.data: %d\n", ((int*)gen->data)[i]);
+            scanf("%f", &((float*)gen->data)[i]);
+            //printf("gen.data: %.2f\n", ((float*)gen->data)[i]);
             break;
         default:
             break;
@@ -102,4 +102,19 @@ void LeGenerico(tGeneric *gen)
  */
 void ImprimeGenerico(tGeneric *gen)
 {
+    printf("\n");
+    for (int i = 0; i < gen->qtd; i++)
+    {
+        switch (gen->tipo)
+        {
+        case INT:
+            printf("%d ", ((int*)gen->data)[i]);
+            break;
+        case FLOAT:
+            printf("%.2f ", ((float*)gen->data)[i]);
+        default:
+            break;
+        }
+    }
+    printf("\n");
 }

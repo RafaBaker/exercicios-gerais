@@ -1,7 +1,4 @@
 tad_gen_01
 Digite o tipo e numero de elementos: 
-gen.data: 1068876431
-gen.data: 1071476900
-gen.data: 1073741824
-gen.data: 1076761723
-gen.data: 1078523331
+Digite o vetor:
+1.42 1.73 2.00 2.72 3.14

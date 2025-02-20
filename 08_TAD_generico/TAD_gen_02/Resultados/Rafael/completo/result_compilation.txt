@@ -1,0 +1,14 @@
+main.c: In function ‘main’:
+main.c:10:34: warning: unused variable ‘i’ [-Wunused-variable]
+   10 |     int tipo = -1, op = -1, qtd, i= 0;
+      |                                  ^
+pacote.c:11:1: warning: no semicolon at end of struct or union
+   11 | };
+      | ^
+pacote.c: In function ‘ImprimePacote’:
+pacote.c:133:18: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘void *’ [-Wformat=]
+  133 |         printf("%s", pac->data);
+      |                 ~^   ~~~~~~~~~
+      |                  |      |
+      |                  char * void *
+      |                 %p
