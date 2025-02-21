@@ -1,0 +1,4 @@
+relatorio.c: In function ‘ImprimeRelatorio’:
+relatorio.c:20:12: warning: variable ‘aprovado’ set but not used [-Wunused-but-set-variable]
+   20 |     int i, aprovado, qtd;
+      |            ^~~~~~~~
