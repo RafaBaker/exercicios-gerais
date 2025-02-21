@@ -1,0 +1,4 @@
+agencia.c: In function ‘GetSaldoMedioAgencia’:
+agencia.c:110:9: warning: unused variable ‘qtd’ [-Wunused-variable]
+  110 |     int qtd;
+      |         ^~~
