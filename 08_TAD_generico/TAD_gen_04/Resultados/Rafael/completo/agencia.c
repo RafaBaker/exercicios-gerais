@@ -13,9 +13,9 @@ struct Agencia
 {
     int num;
     char nome[50];
-    tConta** contas;
-    int qtdContas;
-    int qtdMax;
+    Vector* contas;
+    // int qtdContas;
+    // int qtdMax;
 };
 
 /**
@@ -27,10 +27,10 @@ tAgencia *CriaAgencia()
     tAgencia* agencia = (tAgencia*)malloc(sizeof(tAgencia));
     assert(agencia && "Erro ao alocar agencia");
 
-    agencia->qtdMax = 10;
-    agencia->qtdContas = 0;
+    // agencia->qtdMax = 10;
+    // agencia->qtdContas = 0;
 
-    agencia->contas = (tConta**)malloc(sizeof(tConta*)*agencia->qtdMax);
+    agencia->contas = VectorConstruct();
     assert(agencia->contas && "erro ao alocar contas na agencia");
 
     agencia->nome[0] = '\0';
@@ -49,15 +49,9 @@ void DestroiAgencia(DataType agencia)
     {
         tAgencia* ag = (tAgencia*)agencia;
 
-        if(ag->contas != NULL)
-        {
-            for (int i = 0; i < ag->qtdContas; i++)
-            {
-                DestroiConta(ag->contas[i]);
-            }
-            free(ag->contas);
-        }
-        free(ag);
+        VectorDestroy(ag->contas, DestroiConta);
+
+        free(agencia);
     }
     agencia = NULL;
 }
@@ -79,13 +73,7 @@ void LeAgencia(tAgencia *agencia)
  */
 void AdicionaConta(tAgencia *agencia, tConta *conta)
 {
-    if (agencia->qtdContas == agencia->qtdMax)
-    {
-        agencia->qtdMax *= 2;
-        agencia->contas = realloc(agencia->contas, sizeof(tConta*)*agencia->qtdMax);
-    }
-    agencia->contas[agencia->qtdContas] = conta; 
-    agencia->qtdContas++;
+    VectorPushBack(agencia->contas, conta);
 }
 
 /**
@@ -108,11 +96,11 @@ float GetSaldoMedioAgencia (tAgencia *agencia)
 {
     float total = 0, media;
     int qtd;
-    for (int i = 0; i < agencia->qtdContas; i++)
+    for (int i = 0; i < VectorSize(agencia->contas); i++)
     {
-        total += GetSaldoConta(agencia->contas[i]);
+        total += GetSaldoConta(VectorGet(agencia->contas, i));
     }
-    media = total/(float)agencia->qtdContas;
+    media = total/(float)VectorSize(agencia->contas);
     return media;
 }
 
@@ -124,6 +112,6 @@ void ImprimeDadosAgencia(tAgencia *agencia)
 {
     printf("\tNome: %s\n", agencia->nome);
 	printf("\tNumero: %d\n", agencia->num);
-	printf("\tNumero de contas cadastradas: %d\n", agencia->qtdContas);
+	printf("\tNumero de contas cadastradas: %d\n", VectorSize(agencia->contas));
 	printf("\tSaldo médio: R$%.2f\n", GetSaldoMedioAgencia(agencia));
 }

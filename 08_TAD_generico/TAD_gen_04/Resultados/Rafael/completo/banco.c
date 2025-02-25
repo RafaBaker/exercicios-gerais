@@ -12,9 +12,7 @@
 struct Banco
 {
     char nome[50];
-    tAgencia** agencias;
-    int qtdAgencias;
-    int qtdMax;
+    Vector* agencias;
 };
 
 /**
@@ -26,10 +24,7 @@ tBanco *CriaBanco()
     tBanco* banco = (tBanco*)malloc(sizeof(tBanco));
     assert(banco && "Erro ao alocar banco");
 
-    banco->qtdMax = 10;
-    banco->qtdAgencias = 0;
-
-    banco->agencias = (tAgencia**)malloc(sizeof(tAgencia*)*banco->qtdMax);
+    banco->agencias = VectorConstruct();
 
     return banco;
 }
@@ -42,15 +37,8 @@ void DestroiBanco(tBanco *banco)
 {
     if (banco != NULL)
     {
-        if (banco->agencias != NULL)
-        {
-            for (int i = 0; i < banco->qtdAgencias; i++)
-            {
-                DestroiAgencia(banco->agencias[i]);
-            }
-            free(banco->agencias);
-            banco->agencias = NULL;
-        }
+        VectorDestroy(banco->agencias, DestroiAgencia);
+        
         free(banco);
     }
     banco = NULL;
@@ -73,13 +61,7 @@ void LeBanco(tBanco *banco)
  */
 void AdicionaAgencia(tBanco *banco, tAgencia *agencia)
 {
-    if (banco->qtdAgencias == banco->qtdMax)
-    {
-        banco->qtdMax *= 2;
-        banco->agencias = realloc(banco->agencias, sizeof(tAgencia*)*banco->qtdMax);
-    }
-    banco->agencias[banco->qtdAgencias] = agencia;
-    banco->qtdAgencias++;
+    VectorPushBack(banco->agencias, agencia);
 }
 
 /**
@@ -91,11 +73,11 @@ void AdicionaAgencia(tBanco *banco, tAgencia *agencia)
  */
 void InsereContaBanco(tBanco *banco, int numAgencia, tConta *cliente)
 {
-    for (int i = 0; i < banco->qtdAgencias; i++)
+    for (int i = 0; i < VectorSize(banco->agencias); i++)
     {
-        if(ComparaAgencia(numAgencia, banco->agencias[i]))
+        if(ComparaAgencia(numAgencia, VectorGet(banco->agencias, i)))
         {
-            AdicionaConta(banco->agencias[i], cliente);
+            AdicionaConta((VectorGet(banco->agencias, i)), cliente);
         }
     }
 }
@@ -108,9 +90,9 @@ void ImprimeRelatorioBanco(tBanco *banco)
 {
     printf("%s\n", banco->nome);
     printf("Lista de agencias:\n");
-    for (int i = 0; i < banco->qtdAgencias; i++)
+    for (int i = 0; i < (VectorSize(banco->agencias)); i++)
     {
-        ImprimeDadosAgencia(banco->agencias[i]);
+        ImprimeDadosAgencia(VectorGet(banco->agencias, i));
         printf("\n");
     }
 }
