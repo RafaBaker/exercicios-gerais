@@ -159,47 +159,47 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  -----
  - Pasta matrizgenerica / Caso 1:
  - Arquivo de output gerado: Resultados/Rafael/matrizgenerica/Casos/1/result_valgrind.txt.
- - Valgrind: Ok! allocs: 34, frees: 34, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 50, frees: 50, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta matrizgenerica / Caso 2:
  - Arquivo de output gerado: Resultados/Rafael/matrizgenerica/Casos/2/result_valgrind.txt.
- - Valgrind: Ok! allocs: 34, frees: 34, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 50, frees: 50, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta matrizgenerica / Caso 3:
  - Arquivo de output gerado: Resultados/Rafael/matrizgenerica/Casos/3/result_valgrind.txt.
- - Valgrind: Ok! allocs: 34, frees: 34, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 50, frees: 50, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta matrizgenerica / Caso 4:
  - Arquivo de output gerado: Resultados/Rafael/matrizgenerica/Casos/4/result_valgrind.txt.
- - Valgrind: Ok! allocs: 34, frees: 34, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 50, frees: 50, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta matrizgenerica / Caso 5:
  - Arquivo de output gerado: Resultados/Rafael/matrizgenerica/Casos/5/result_valgrind.txt.
- - Valgrind: Ok! allocs: 30, frees: 30, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 42, frees: 42, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta matrizgenerica / Caso 6:
  - Arquivo de output gerado: Resultados/Rafael/matrizgenerica/Casos/6/result_valgrind.txt.
- - Valgrind: Ok! allocs: 46, frees: 46, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 70, frees: 70, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta matrizgenerica / Caso 7:
  - Arquivo de output gerado: Resultados/Rafael/matrizgenerica/Casos/7/result_valgrind.txt.
- - Valgrind: Ok! allocs: 91, frees: 91, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 129, frees: 129, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta matrizgenerica / Caso 8:
  - Arquivo de output gerado: Resultados/Rafael/matrizgenerica/Casos/8/result_valgrind.txt.
- - Valgrind: Ok! allocs: 548, frees: 548, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 853, frees: 853, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta matrizgenerica / Caso 9:
  - Arquivo de output gerado: Resultados/Rafael/matrizgenerica/Casos/9/result_valgrind.txt.
- - Valgrind: Ok! allocs: 10, frees: 10, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 18, frees: 18, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Nota para a pasta matrizgenerica (máximo 2.50) - 90.00 de 90 - 100.00% de 2.50: 2.50.

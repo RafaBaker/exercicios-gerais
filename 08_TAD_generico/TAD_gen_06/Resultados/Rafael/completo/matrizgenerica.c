@@ -7,7 +7,7 @@
 
 struct matrizgenerica
 {
-    void **data;
+    void ***data;
     int linhas;
     int colunas;
     int byte;
@@ -31,10 +31,19 @@ tMatrizGenerica *CriaMatrizGenerica(int linhas, int colunas, int numByteElem)
     mat->colunas = colunas;
     mat->byte = numByteElem;
 
-    mat->data = malloc(sizeof(void *) * linhas);
+    mat->data = malloc(sizeof(void**) * linhas);
     for (int i = 0; i < linhas; i++)
     {
-        mat->data[i] = malloc(colunas * numByteElem);
+        mat->data[i] = malloc(sizeof(void*)*colunas);
+    }
+
+    for (int i = 0; i < linhas; i++)
+    {
+        for (int j = 0; j < colunas; j++)
+        {
+            mat->data[i][j] = malloc(numByteElem);
+            //mat->data[i][j] = NULL;
+        }
     }
 
     return mat;
@@ -50,11 +59,22 @@ void DestroiMatrizGenerica(tMatrizGenerica *mat)
 {
     if (mat != NULL)
     {
-        for (int i = 0; i < mat->linhas; i++)
+        if (mat->data != NULL)
         {
-            free(mat->data[i]);
+            for (int i = 0; i < mat->linhas; i++)
+            {
+                if (mat->data[i] != NULL)
+                {
+                    for (int j = 0; j < mat->colunas; j++)
+                    {
+                        if (mat->data[i][j] != NULL)
+                            free(mat->data[i][j]);
+                    }
+                    free(mat->data[i]);
+                }
+            }
+            free(mat->data);
         }
-        free(mat->data);
         free(mat);
     }
     mat = NULL;
@@ -98,7 +118,7 @@ int ObtemNumeroColunasMatrizGenerica(tMatrizGenerica *mat)
  */
 void *ObtemElementoMatrizGenerica(tMatrizGenerica *mat, int linha, int coluna)
 {
-    return (char*)mat->data[linha] + (coluna * mat->byte);
+    return mat->data[linha][coluna];
 }
 
 /**

@@ -1,4 +1,4 @@
 matrizgenerica.c: In function ‘ObtemNumeroLinhasMatrizGenerica’:
-matrizgenerica.c:76:1: warning: control reaches end of non-void function [-Wreturn-type]
-   76 | }
+matrizgenerica.c:96:1: warning: control reaches end of non-void function [-Wreturn-type]
+   96 | }
       | ^
