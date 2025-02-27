@@ -1,2 +1,23 @@
-cc1: fatal error: *.c: No such file or directory
-compilation terminated.
+main.c: In function ‘main’:
+main.c:117:41: warning: passing argument 2 of ‘ImprimirMatrizGenerica’ from incompatible pointer type [-Wincompatible-pointer-types]
+  117 |             ImprimirMatrizGenerica(mat, ImprimeNumeroComplexo);
+      |                                         ^~~~~~~~~~~~~~~~~~~~~
+      |                                         |
+      |                                         void (*)(tNumComplexo *) {aka void (*)(struct complexo *)}
+In file included from main.c:3:
+matrizgenerica.h:76:58: note: expected ‘void (*)(void *)’ but argument is of type ‘void (*)(tNumComplexo *)’ {aka ‘void (*)(struct complexo *)’}
+   76 | void ImprimirMatrizGenerica(tMatrizGenerica * mat, void (imprime_elemento(void*)));
+      |                                                    ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:146:44: warning: passing argument 2 of ‘ImprimirMatrizGenerica’ from incompatible pointer type [-Wincompatible-pointer-types]
+  146 |         ImprimirMatrizGenerica(convertida, ImprimeNumeroComplexo);
+      |                                            ^~~~~~~~~~~~~~~~~~~~~
+      |                                            |
+      |                                            void (*)(tNumComplexo *) {aka void (*)(struct complexo *)}
+In file included from main.c:3:
+matrizgenerica.h:76:58: note: expected ‘void (*)(void *)’ but argument is of type ‘void (*)(tNumComplexo *)’ {aka ‘void (*)(struct complexo *)’}
+   76 | void ImprimirMatrizGenerica(tMatrizGenerica * mat, void (imprime_elemento(void*)));
+      |                                                    ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c: In function ‘ConverteCharComplexo’:
+main.c:230:1: warning: control reaches end of non-void function [-Wreturn-type]
+  230 | }
+      | ^

@@ -1,0 +1,4 @@
+imagem.c: In function ‘LerImagem’:
+imagem.c:85:10: warning: unused variable ‘buffer’ [-Wunused-variable]
+   85 |     char buffer[100];
+      |          ^~~~~~

@@ -1,1 +1,7 @@
-valgrind: Resultados/Rafael/completo/prog: No such file or directory
+Digite o número de linhas, colunas e o tipo da matriz (0 – inteiro, 1 – float, 2 – double, 3 – char, 4 – número complexo): 
+Digite a operação desejada
+	1 - Apenas imprimir a matriz
+	2 - Converter para o tipo complexo e imprimir
+	3 - Calcular e imprimir a multiplicacao da matriz pela sua transposta.
+3.14 3.14 
+3.14 3.14 

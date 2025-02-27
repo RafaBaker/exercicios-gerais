@@ -1,3 +1,0 @@
-numcomplexo.c:79:2: error: #endif without #if
-   79 | #endif
-      |  ^~~~~
