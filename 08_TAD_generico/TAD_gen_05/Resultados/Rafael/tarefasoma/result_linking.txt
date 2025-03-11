@@ -1,0 +1,5 @@
+/usr/bin/ld: Resultados/Rafael/tarefasoma/main.o: in function `main':
+main.c:(.text+0x166): undefined reference to `CriaTarefaSoma'
+/usr/bin/ld: main.c:(.text+0x17f): undefined reference to `DestroiTarefaSoma'
+/usr/bin/ld: main.c:(.text+0x189): undefined reference to `ExecutaTarefaSoma'
+collect2: error: ld returned 1 exit status

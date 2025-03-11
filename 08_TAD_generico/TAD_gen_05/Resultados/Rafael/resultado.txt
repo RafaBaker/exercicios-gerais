@@ -1,0 +1,29 @@
+Arquivos Esperados Corretos: 5 de 9
+Pastas Compiladas Corretamente: 2 de 6 
+Pastas Linkadas Corretamente: 1 de 6
+Teste main
+  - Resultados corretos: 0 de 5
+  - Valgrinds corretos: 0 de 5
+Nota de Rafael para o teste main: 0
+Teste completo
+  - Resultados corretos: 0 de 5
+  - Valgrinds corretos: 0 de 5
+Nota de Rafael para o teste completo: 0
+Teste agendatarefas
+  - Resultados corretos: 5 de 5
+  - Valgrinds corretos: 5 de 5
+Nota de Rafael para o teste agendatarefas: 1.67
+Teste tarefamultiplica
+  - Resultados corretos: 0 de 5
+  - Valgrinds corretos: 0 de 5
+Nota de Rafael para o teste tarefamultiplica: 0
+Teste tarefasoma
+  - Resultados corretos: 0 de 5
+  - Valgrinds corretos: 0 de 5
+Nota de Rafael para o teste tarefasoma: 0
+Teste tarefaimprime
+  - Resultados corretos: 0 de 5
+  - Valgrinds corretos: 0 de 5
+Nota de Rafael para o teste tarefaimprime: 0
+Nota de Rafael: 0+(0)+(0)+(0)+(0)+(0)+(1.67)
+Nota de Rafael: 1.67

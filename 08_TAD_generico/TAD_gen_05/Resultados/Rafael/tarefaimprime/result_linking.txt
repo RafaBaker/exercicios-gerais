@@ -1,0 +1,5 @@
+/usr/bin/ld: Resultados/Rafael/tarefaimprime/main.o: in function `main':
+main.c:(.text+0xe1): undefined reference to `CriaTarefaImprimir'
+/usr/bin/ld: main.c:(.text+0xfa): undefined reference to `DestroiTarefaImprimir'
+/usr/bin/ld: main.c:(.text+0x104): undefined reference to `ExecutaTarefaImprimir'
+collect2: error: ld returned 1 exit status

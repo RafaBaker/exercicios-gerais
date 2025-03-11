@@ -13,7 +13,11 @@
     "stdlib.h": "c",
     "assert.h": "c",
     "vector.h": "c",
+<<<<<<< HEAD
     "string.h": "c"
+=======
+    "aluno.h": "c"
+>>>>>>> 70a422289207356627d4b0b0ae8221ad3763b5cb
   },
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",

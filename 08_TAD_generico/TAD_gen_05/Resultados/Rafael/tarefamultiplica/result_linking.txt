@@ -1,0 +1,5 @@
+/usr/bin/ld: Resultados/Rafael/tarefamultiplica/main.o: in function `main':
+main.c:(.text+0x1eb): undefined reference to `CriaTarefaMultiplicar'
+/usr/bin/ld: main.c:(.text+0x204): undefined reference to `DestroiTarefaMultiplicar'
+/usr/bin/ld: main.c:(.text+0x20e): undefined reference to `ExecutaTarefaMultiplicar'
+collect2: error: ld returned 1 exit status
