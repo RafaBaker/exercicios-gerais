@@ -1,0 +1,14 @@
+/usr/bin/ld: Resultados/Rafael/aluno/database.o: in function `DestroiDatabase':
+database.c:(.text+0x84): undefined reference to `DestroiAluno'
+/usr/bin/ld: Resultados/Rafael/aluno/database.o: in function `LeDatabase':
+database.c:(.text+0x113): undefined reference to `LeAluno'
+/usr/bin/ld: Resultados/Rafael/aluno/database.o: in function `OrdenaDatabase':
+database.c:(.text+0x20f): undefined reference to `ComparaNomeAluno'
+/usr/bin/ld: Resultados/Rafael/aluno/database.o: in function `SalvarDatabase':
+database.c:(.text+0x3ba): undefined reference to `SalvaAluno'
+/usr/bin/ld: Resultados/Rafael/aluno/database.o: in function `CarregaDatabase':
+database.c:(.text+0x4e6): undefined reference to `CriaAluno'
+/usr/bin/ld: database.c:(.text+0x4fd): undefined reference to `CarregaAluno'
+/usr/bin/ld: Resultados/Rafael/aluno/database.o: in function `ImprimeDatabase':
+database.c:(.text+0x617): undefined reference to `ImprimeNomeAluno'
+collect2: error: ld returned 1 exit status
